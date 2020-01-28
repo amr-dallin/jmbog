@@ -1,0 +1,664 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2020-01-28 22:55+0500\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/Admin/EventsController.php:40
+#: Controller/Admin/EventsController.php:68
+msgid "The event has been saved."
+msgstr ""
+
+#: Controller/Admin/EventsController.php:44
+#: Controller/Admin/EventsController.php:72
+msgid "The event could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/EventsController.php:90
+msgid "The event has been deleted."
+msgstr ""
+
+#: Controller/Admin/EventsController.php:92
+msgid "The event could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/FilesController.php:55
+msgid "The file has been saved."
+msgstr ""
+
+#: Controller/Admin/FilesController.php:59
+msgid "The file could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/FilesController.php:76
+msgid "The file has been deleted."
+msgstr ""
+
+#: Controller/Admin/FilesController.php:78
+msgid "The file could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/PeopleController.php:51
+#: Controller/Admin/PeopleController.php:75
+msgid "The person has been saved."
+msgstr ""
+
+#: Controller/Admin/PeopleController.php:55
+#: Controller/Admin/PeopleController.php:79
+msgid "The person could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/PeopleController.php:96
+msgid "The person has been deleted."
+msgstr ""
+
+#: Controller/Admin/PeopleController.php:98
+msgid "The person could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/PlotsController.php:40
+#: Controller/Admin/PlotsController.php:64
+msgid "The plot has been saved."
+msgstr ""
+
+#: Controller/Admin/PlotsController.php:44
+#: Controller/Admin/PlotsController.php:68
+msgid "The plot could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/PlotsController.php:86
+msgid "The plot has been deleted."
+msgstr ""
+
+#: Controller/Admin/PlotsController.php:88
+msgid "The plot could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/SystemicPagesController.php:52
+#: Controller/Admin/SystemicPagesController.php:76
+msgid "The systemic page has been saved."
+msgstr ""
+
+#: Controller/Admin/SystemicPagesController.php:56
+#: Controller/Admin/SystemicPagesController.php:80
+msgid "The systemic page could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:29
+msgid "Username or password is incorrect"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:53
+msgid "The user password has been changed. Please, Log In."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:57
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:60
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Template/Admin/Element/breadcrumbs.ctp:3
+#: Template/Admin/Element/breadcrumbs.ctp:5
+#: Template/Admin/Element/navigation.ctp:25
+#: Template/Admin/Element/navigation.ctp:29
+msgid "Dashboard"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:29
+msgid "dashboard"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:35
+msgid "Objects"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:44
+#: Template/Admin/Element/navigation.ctp:48
+#: Template/Admin/Events/add.ctp:6
+#: Template/Admin/Events/edit.ctp:7
+#: Template/Admin/Events/index.ctp:2
+#: Template/Admin/Events/index.ctp:6
+msgid "Events"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:48
+msgid "events"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:58
+#: Template/Admin/Element/navigation.ctp:105
+#: Template/Admin/Element/navigation.ctp:152
+#: Template/Admin/Element/navigation.ctp:217
+#: Template/Admin/Element/navigation.ctp:266
+#: Template/Admin/Events/add.ctp:7
+#: Template/Admin/People/add.ctp:7
+#: Template/Admin/Plots/add.ctp:7
+msgid "Create"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:62
+#: Template/Admin/Events/add.ctp:2
+msgid "Create event"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:62
+msgid "create event"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:72
+#: Template/Admin/Element/navigation.ctp:119
+#: Template/Admin/Element/navigation.ctp:166
+#: Template/Admin/Element/navigation.ctp:231
+#: Template/Admin/Element/navigation.ctp:280
+msgid "List"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:76
+msgid "List events"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:76
+msgid "list events"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:91
+#: Template/Admin/Element/navigation.ctp:95
+#: Template/Admin/Element/navigation.ctp:142
+#: Template/Admin/Plots/add.ctp:6
+#: Template/Admin/Plots/edit.ctp:7
+#: Template/Admin/Plots/index.ctp:2
+#: Template/Admin/Plots/index.ctp:6
+msgid "Plots"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:95
+#: Template/Admin/Element/navigation.ctp:142
+msgid "plots"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:109
+#: Template/Admin/Plots/add.ctp:2
+msgid "Create plot"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:109
+msgid "create plot"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:123
+msgid "List plots"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:123
+msgid "list plots"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:138
+#: Template/Admin/People/add.ctp:6
+#: Template/Admin/People/edit.ctp:7
+#: Template/Admin/People/index.ctp:2
+#: Template/Admin/People/index.ctp:6
+msgid "People"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:156
+#: Template/Admin/People/add.ctp:2
+#: Template/Admin/People/ajax/add.ctp:13
+msgid "Create person"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:156
+msgid "create person"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:170
+msgid "List people"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:170
+msgid "list people"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:180
+msgid "Publications and files"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:189
+#: Template/Admin/Element/navigation.ctp:193
+#: Template/Admin/Pages/edit.ctp:6
+#: Template/Admin/Pages/index.ctp:6
+msgid "Pages"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:193
+msgid "pages"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:203
+msgid "Systemic"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:207
+msgid "Systemic pages"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:207
+msgid "systemic pages"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:221
+msgid "Create systemic page"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:221
+msgid "create systemic page"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:235
+msgid "List systemic pages"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:235
+msgid "list systemic pages"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:252
+#: Template/Admin/Element/navigation.ctp:256
+msgid "Files"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:256
+msgid "files"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:270
+msgid "Create file(s)"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:270
+msgid "create file"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:284
+msgid "List files"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:284
+msgid "list files"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:294
+msgid "By type"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:298
+msgid "Files by type"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:298
+msgid "files by type"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:307
+#: Template/Admin/Element/navigation.ctp:311
+msgid "Documents"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:311
+msgid "documents"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:320
+#: Template/Admin/Element/navigation.ctp:324
+msgid "Images"
+msgstr ""
+
+#: Template/Admin/Element/navigation.ctp:324
+msgid "images"
+msgstr ""
+
+#: Template/Admin/Element/Flash/error.ctp:10
+msgid "Error!"
+msgstr ""
+
+#: Template/Admin/Element/Flash/success.ctp:11
+msgid "Well Done!"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:60
+#: Template/Admin/Events/edit.ctp:61
+msgid "Apply"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:61
+#: Template/Admin/Events/edit.ctp:62
+msgid "Cancel"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:64
+#: Template/Admin/Events/edit.ctp:65
+msgid "Su"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:65
+#: Template/Admin/Events/edit.ctp:66
+msgid "Mo"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:66
+#: Template/Admin/Events/edit.ctp:67
+msgid "Tu"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:67
+#: Template/Admin/Events/edit.ctp:68
+msgid "We"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:68
+#: Template/Admin/Events/edit.ctp:69
+msgid "Th"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:69
+#: Template/Admin/Events/edit.ctp:70
+msgid "Fr"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:70
+#: Template/Admin/Events/edit.ctp:71
+msgid "Sa"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:73
+#: Template/Admin/Events/edit.ctp:74
+msgid "January"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:74
+#: Template/Admin/Events/edit.ctp:75
+msgid "February"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:75
+#: Template/Admin/Events/edit.ctp:76
+msgid "March"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:76
+#: Template/Admin/Events/edit.ctp:77
+msgid "April"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:77
+#: Template/Admin/Events/edit.ctp:78
+msgid "May"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:78
+#: Template/Admin/Events/edit.ctp:79
+msgid "June"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:79
+#: Template/Admin/Events/edit.ctp:80
+msgid "July"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:80
+#: Template/Admin/Events/edit.ctp:81
+msgid "August"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:81
+#: Template/Admin/Events/edit.ctp:82
+msgid "September"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:82
+#: Template/Admin/Events/edit.ctp:83
+msgid "October"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:83
+#: Template/Admin/Events/edit.ctp:84
+msgid "November"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:84
+#: Template/Admin/Events/edit.ctp:85
+msgid "December"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:104
+#: Template/Admin/Events/edit.ctp:105
+#: Template/Admin/Events/index.ctp:48
+#: Template/Admin/Pages/add.ctp:64
+#: Template/Admin/Pages/edit.ctp:64
+#: Template/Admin/Pages/index.ctp:49
+msgid "Title"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:118
+#: Template/Admin/Events/edit.ctp:119
+#: Template/Admin/Pages/add.ctp:82
+#: Template/Admin/Pages/edit.ctp:82
+#: Template/Admin/People/add.ctp:45
+#: Template/Admin/People/edit.ctp:46
+#: Template/Admin/Plots/add.ctp:76
+#: Template/Admin/Plots/edit.ctp:77
+msgid "Publish mode"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:123
+#: Template/Admin/Events/edit.ctp:134
+#: Template/Admin/Pages/add.ctp:88
+#: Template/Admin/Pages/edit.ctp:99
+#: Template/Admin/People/add.ctp:50
+#: Template/Admin/People/edit.ctp:61
+#: Template/Admin/Plots/add.ctp:81
+#: Template/Admin/Plots/edit.ctp:92
+msgid "Save"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:131
+#: Template/Admin/Events/edit.ctp:143
+msgid "Status"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:140
+#: Template/Admin/Events/edit.ctp:152
+msgid "Date beginning"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:150
+#: Template/Admin/Events/add.ctp:159
+#: Template/Admin/Events/edit.ctp:163
+#: Template/Admin/Events/edit.ctp:172
+msgid "Location"
+msgstr ""
+
+#: Template/Admin/Events/add.ctp:156
+#: Template/Admin/Events/edit.ctp:169
+msgid "Coordinates"
+msgstr ""
+
+#: Template/Admin/Events/edit.ctp:126
+#: Template/Admin/Pages/edit.ctp:90
+#: Template/Admin/People/edit.ctp:53
+#: Template/Admin/Plots/edit.ctp:84
+msgid "Delete"
+msgstr ""
+
+#: Template/Admin/Events/edit.ctp:130
+msgid "Are you sure you want to delete the event?"
+msgstr ""
+
+#: Template/Admin/Events/edit.ctp:131
+#: Template/Admin/People/edit.ctp:58
+#: Template/Admin/Plots/edit.ctp:89
+msgid "Deletion eliminates the possibility of data recovery, including related data."
+msgstr ""
+
+#: Template/Admin/Events/index.ctp:49
+msgid "Date Beginning"
+msgstr ""
+
+#: Template/Admin/Events/index.ctp:50
+msgid "Completed"
+msgstr ""
+
+#: Template/Admin/Layout/default.ctp:94
+#: Template/Admin/Layout/default.ctp:98
+msgid "Control panel"
+msgstr ""
+
+#: Template/Admin/Layout/default.ctp:114
+#: Template/Admin/Layout/default.ctp:115
+msgid "Admin Panel"
+msgstr ""
+
+#: Template/Admin/Layout/default.ctp:168
+msgid "Settings"
+msgstr ""
+
+#: Template/Admin/Layout/default.ctp:172
+msgid "Fullscreen"
+msgstr ""
+
+#: Template/Admin/Layout/default.ctp:176
+msgid "Print"
+msgstr ""
+
+#: Template/Admin/Layout/default.ctp:181
+msgid "Logout"
+msgstr ""
+
+#: Template/Admin/Layout/default.ctp:214
+msgid "Home"
+msgstr ""
+
+#: Template/Admin/Layout/default.ctp:251
+msgid "Are you sure?"
+msgstr ""
+
+#: Template/Admin/Layout/default.ctp:261
+msgid "Critical action"
+msgstr ""
+
+#: Template/Admin/Pages/add.ctp:2
+msgid "Create New Dynamic Page"
+msgstr ""
+
+#: Template/Admin/Pages/add.ctp:6
+#: Template/Admin/Pages/index.ctp:2
+msgid "Dynamic Pages"
+msgstr ""
+
+#: Template/Admin/Pages/add.ctp:7
+msgid "Create New"
+msgstr ""
+
+#: Template/Admin/Pages/add.ctp:68
+#: Template/Admin/Pages/edit.ctp:68
+msgid "Slug"
+msgstr ""
+
+#: Template/Admin/Pages/edit.ctp:94
+msgid "Are you sure you want to delete the page?"
+msgstr ""
+
+#: Template/Admin/Pages/edit.ctp:95
+msgid "Deletion eliminates the possibility of data recovery."
+msgstr ""
+
+#: Template/Admin/Pages/index.ctp:50
+msgid "Mode"
+msgstr ""
+
+#: Template/Admin/People/add.ctp:26
+#: Template/Admin/People/edit.ctp:27
+#: Template/Admin/People/ajax/add.ctp:34
+msgid "Last name"
+msgstr ""
+
+#: Template/Admin/People/add.ctp:29
+#: Template/Admin/People/edit.ctp:30
+#: Template/Admin/People/ajax/add.ctp:37
+msgid "First name"
+msgstr ""
+
+#: Template/Admin/People/add.ctp:32
+#: Template/Admin/People/edit.ctp:33
+#: Template/Admin/People/ajax/add.ctp:40
+msgid "Middle name"
+msgstr ""
+
+#: Template/Admin/People/add.ctp:35
+#: Template/Admin/People/edit.ctp:36
+#: Template/Admin/People/ajax/add.ctp:43
+msgid "Cell number"
+msgstr ""
+
+#: Template/Admin/People/edit.ctp:57
+msgid "Are you sure you want to delete the person?"
+msgstr ""
+
+#: Template/Admin/People/index.ctp:48
+msgid "ID"
+msgstr ""
+
+#: Template/Admin/People/index.ctp:49
+#: Template/Admin/Plots/index.ctp:50
+msgid "Full name"
+msgstr ""
+
+#: Template/Admin/People/index.ctp:50
+msgid "Quantity"
+msgstr ""
+
+#: Template/Admin/People/index.ctp:51
+#: Template/Admin/Plots/index.ctp:51
+msgid "Date modified"
+msgstr ""
+
+#: Template/Admin/Plots/add.ctp:47
+#: Template/Admin/Plots/edit.ctp:48
+msgid "The number of the suburban area"
+msgstr ""
+
+#: Template/Admin/Plots/add.ctp:52
+#: Template/Admin/Plots/edit.ctp:53
+msgid "Notes"
+msgstr ""
+
+#: Template/Admin/Plots/add.ctp:60
+#: Template/Admin/Plots/edit.ctp:61
+msgid "Choose the owner of a summer cottage"
+msgstr ""
+
+#: Template/Admin/Plots/edit.ctp:2
+msgid "Cottage plot №{0}"
+msgstr ""
+
+#: Template/Admin/Plots/edit.ctp:88
+msgid "Are you sure you want to delete the plot?"
+msgstr ""
+
+#: Template/Admin/Plots/index.ctp:49
+msgid "Number"
+msgstr ""
+

@@ -1,0 +1,616 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Jannat Makon Bog\n"
+"POT-Creation-Date: 2020-01-28 23:06+0500\n"
+"PO-Revision-Date: 2020-01-28 23:08+0500\n"
+"Last-Translator: Marat Dallin <amr.dallin@gmail.com>\n"
+"Language-Team: Marat Dalin <mail@dallin.uz>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: Controller/SystemicPagesController.php:36
+#: Controller/SystemicPagesController.php:54
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: Controller/UsersController.php:31
+msgid "Username or password is incorrect"
+msgstr "Имя пользователя или пароль не верен."
+
+#: Model/Table/UsersTable.php:69 Model/Table/UsersTable.php:74
+#: Model/Table/UsersTable.php:80
+msgid "Password must be at least 6 characters long."
+msgstr "Пароль должен состоять минимум из символов."
+
+#: Model/Table/UsersTable.php:70
+msgid "Password is required."
+msgstr "Требуется пароль."
+
+#: Model/Table/UsersTable.php:75
+msgid "You must enter the current password."
+msgstr "Вы должны ввести текущий пароль."
+
+#: Model/Table/UsersTable.php:79
+msgid "You must enter a new password."
+msgstr "Вы должны ввести новый пароль."
+
+#: Model/Table/UsersTable.php:85
+msgid "New password and confirmation record do not match!"
+msgstr "Не удалось подтвердить новый пароль!"
+
+#: Model/Table/UsersTable.php:122
+msgid "The current password is incorrectly entered!"
+msgstr "Введён некорректный текущий пароль!"
+
+#: Model/Table/UsersTable.php:136
+msgid "The new password is no different from the current!"
+msgstr "Новый пароль не должен совпадать с текущим."
+
+#: Template/Admin/People/ajax/add.ctp:28
+msgid "Error!"
+msgstr "Ошибка!"
+
+#: Template/Element/navigation.ctp:39 Template/Element/navigation.ctp:41
+msgid "Home"
+msgstr "Главная"
+
+#: Template/Element/navigation.ctp:47 Template/Element/navigation.ctp:49
+msgid "Events"
+msgstr "События"
+
+#: Template/Element/navigation.ctp:55 Template/Element/navigation.ctp:57
+msgid "Plots"
+msgstr "Дачные участки"
+
+#: Template/Error/error400.ctp:5
+msgid "404 Page not found"
+msgstr "404 Страница не найдена"
+
+#: Template/Error/error400.ctp:14
+msgid "The link you clicked may be damaged or the page deleted."
+msgstr "Ссылка, которую вы нажали, может быть повреждена или страница удалена."
+
+#: Template/Error/error400.ctp:15
+msgid "Go {0} or visit {1}."
+msgstr "Вернуться {0} или посетить {1}"
+
+#: Template/Error/error400.ctp:15
+msgid "back"
+msgstr "назад"
+
+#: Template/Error/error400.ctp:15 Template/Error/error500.ctp:15
+msgid "home page"
+msgstr "главную страницу"
+
+#: Template/Error/error500.ctp:5
+msgid "500 Internal error"
+msgstr "500 Внутренняя ошибка"
+
+#: Template/Error/error500.ctp:14
+msgid "An unexpected error has occured preventing the page from loading."
+msgstr "Произошла непредвиденная ошибка, препятствующая загрузке страницы."
+
+#: Template/Error/error500.ctp:15
+msgid "Go back to {0}"
+msgstr "Вернуться на {0}"
+
+#: Template/Events/index.ctp:61 Template/SystemicPages/display.ctp:33
+msgid "Upcoming events"
+msgstr "Предстоящие события"
+
+#: Template/Events/index.ctp:94 Template/Events/index.ctp:145
+#: Template/SystemicPages/display.ctp:66
+msgid "More"
+msgstr "Подробнее..."
+
+#: Template/Events/index.ctp:120
+msgid "Completed activities"
+msgstr "Завершившиеся события"
+
+#: Template/Events/view.ctp:29
+msgid "Completed"
+msgstr "Завершено"
+
+#: Template/Plots/index.ctp:63
+msgid "Number"
+msgstr "Номер"
+
+#: Template/Plots/index.ctp:64
+msgid "Owner"
+msgstr "Собственник"
+
+#: Template/Users/login.ctp:3 Template/Users/login.ctp:13
+#: Template/Users/login.ctp:35
+msgid "Log in"
+msgstr "Войти"
+
+#: Template/Users/login.ctp:20
+msgid "Username"
+msgstr "Имя Пользователя"
+
+#: Template/Users/login.ctp:29
+msgid "Password"
+msgstr "Пароль"
+
+#~ msgid "Install successful."
+#~ msgstr "Установка завершена успешно."
+
+#~ msgid "Oops... Please, try again."
+#~ msgstr "Уппс... Пожалуйста, повторите снова."
+
+#~ msgid "Pro Деньги"
+#~ msgstr "Pro Деньги"
+
+#, fuzzy
+#~ msgid "The event has been saved."
+#~ msgstr "Публикация успешно сохранена."
+
+#, fuzzy
+#~ msgid "The event could not be saved. Please, try again."
+#~ msgstr "Публикацию не удалось сохранить. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The event has been deleted."
+#~ msgstr "Публикация успешно сохранена."
+
+#, fuzzy
+#~ msgid "The event could not be deleted. Please, try again."
+#~ msgstr "Публикацию не удалось удалить. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The file has been saved."
+#~ msgstr "Медиафайл был сохранен."
+
+#, fuzzy
+#~ msgid "The file could not be saved. Please, try again."
+#~ msgstr "Медиафайл не может быть сохранен. Пожалуйста, попробуйте еще раз."
+
+#, fuzzy
+#~ msgid "The file has been deleted."
+#~ msgstr "Файл успешно удалён."
+
+#, fuzzy
+#~ msgid "The file could not be deleted. Please, try again."
+#~ msgstr "Файл не удалось удалить. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The person has been saved."
+#~ msgstr "Персональные данные были сохранены."
+
+#, fuzzy
+#~ msgid "The person could not be saved. Please, try again."
+#~ msgstr "Персональные данные не были сохранены. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The person has been deleted."
+#~ msgstr "Персональные данные удалены."
+
+#, fuzzy
+#~ msgid "The person could not be deleted. Please, try again."
+#~ msgstr "Персональные данные не удалены. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The plot has been saved."
+#~ msgstr "Публикация успешно сохранена."
+
+#, fuzzy
+#~ msgid "The plot could not be saved. Please, try again."
+#~ msgstr "Публикацию не удалось сохранить. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The plot has been deleted."
+#~ msgstr "Публикация успешно сохранена."
+
+#, fuzzy
+#~ msgid "The plot could not be deleted. Please, try again."
+#~ msgstr "Публикацию не удалось удалить. Пожалуйста, повторите снова."
+
+#~ msgid "The systemic page has been saved."
+#~ msgstr "Системная страница успешно сохранена."
+
+#~ msgid "The systemic page could not be saved. Please, try again."
+#~ msgstr ""
+#~ "Системную страницу не удалось сохранить. Пожалуйста, повторите снова."
+
+#~ msgid "The user password has been changed. Please, Log In."
+#~ msgstr "Пользовательский пароль успешно изменён. Пожалуйста, войдите снова."
+
+#~ msgid "The user has been saved."
+#~ msgstr "Пользователь успешно сохранён."
+
+#~ msgid "The user could not be saved. Please, try again."
+#~ msgstr "Пользователя не удалось сохранить. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "Actions"
+#~ msgstr "Действия"
+
+#, fuzzy
+#~ msgid "Are you sure you want to delete # {0}?"
+#~ msgstr "Вы уверены, что хотите удалить # {0}?"
+
+#, fuzzy
+#~ msgid "Person"
+#~ msgstr "Человек"
+
+#, fuzzy
+#~ msgid "Id"
+#~ msgstr "ID"
+
+#, fuzzy
+#~ msgid "Date Created"
+#~ msgstr "Дата создания"
+
+#, fuzzy
+#~ msgid "Date Modified"
+#~ msgstr "Дата изменения"
+
+#~ msgid "Title"
+#~ msgstr "Название"
+
+#, fuzzy
+#~ msgid "Slug"
+#~ msgstr "url адрес"
+
+#, fuzzy
+#~ msgid "Body"
+#~ msgstr "Описание"
+
+#, fuzzy
+#~ msgid "Location"
+#~ msgstr "Расположение:"
+
+#, fuzzy
+#~ msgid "View"
+#~ msgstr "Посмотреть"
+
+#, fuzzy
+#~ msgid "Edit"
+#~ msgstr "Изменить"
+
+#, fuzzy
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "Bank not found"
+#~ msgstr "Банк не найден"
+
+#~ msgid "Credit category not found"
+#~ msgstr "Кредитная категория не найдена"
+
+#~ msgid "News category not found"
+#~ msgstr "Категория новостей не найдена"
+
+#~ msgid "News not found"
+#~ msgstr "Новости не найдены"
+
+#~ msgid "Organization not found"
+#~ msgstr "Организация не найдена"
+
+#~ msgid "Post category not found"
+#~ msgstr "Категория статей не найдена"
+
+#~ msgid "Post not found"
+#~ msgstr "Публикация не найдена"
+
+#, fuzzy
+#~ msgid "The bank exchange rate has been deleted."
+#~ msgstr "Публикация банка успешно удалена."
+
+#, fuzzy
+#~ msgid "The bank exchange rate could not be deleted. Please, try again."
+#~ msgstr "Банк не удалось удалить. Пожалуйста, повторите снова."
+
+#~ msgid "The bank post has been saved."
+#~ msgstr "Публикация банка сохранена успешно."
+
+#~ msgid "The bank post could not be saved. Please, try again."
+#~ msgstr "Публикация банка не сохранена. Пожалуйста, повторите снова."
+
+#~ msgid "The bank post has been deleted."
+#~ msgstr "Публикация банка успешно удалена."
+
+#~ msgid "The bank post could not be deleted. Please, try again."
+#~ msgstr "Публикация банка не удалена. Пожалуйста, повторите снова."
+
+#~ msgid "The bank has been saved."
+#~ msgstr "Банк сохранён успешно."
+
+#~ msgid "The bank could not be saved. Please, try again."
+#~ msgstr "Банк не удалось сохранить. Пожалуйста, повторите снова."
+
+#~ msgid "The bank has been deleted."
+#~ msgstr "Банк удалён успешно."
+
+#~ msgid "The bank could not be deleted. Please, try again."
+#~ msgstr "Банк не удалось удалить. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The credit category has been saved."
+#~ msgstr "Категория публикаций сохранена успешно."
+
+#, fuzzy
+#~ msgid "The credit category could not be saved. Please, try again."
+#~ msgstr "Категория публикаций не сохранена. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The credit category has been deleted."
+#~ msgstr "Категория публикаций успешно удалена."
+
+#, fuzzy
+#~ msgid "The credit category could not be deleted. Please, try again."
+#~ msgstr ""
+#~ "Категорию публикаций не удалось удалить. Пожалуйста, повторите снова."
+
+#~ msgid "The currency has been saved."
+#~ msgstr "Валюта успешно сохранена."
+
+#~ msgid "The currency could not be saved. Please, try again."
+#~ msgstr "Валюту не удалось сохранить. Пожалуйста, повторите снова."
+
+#~ msgid "The currency has been deleted."
+#~ msgstr "Валюта удалена успешно."
+
+#~ msgid "The currency could not be deleted. Please, try again."
+#~ msgstr "Валюту не удалось удалить. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The news category has been saved."
+#~ msgstr "Категория публикаций сохранена успешно."
+
+#, fuzzy
+#~ msgid "The news category could not be saved. Please, try again."
+#~ msgstr "Категория публикаций не сохранена. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The news category has been deleted."
+#~ msgstr "Категория публикаций успешно удалена."
+
+#, fuzzy
+#~ msgid "The news category could not be deleted. Please, try again."
+#~ msgstr ""
+#~ "Категорию публикаций не удалось удалить. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The news has been saved."
+#~ msgstr "Банк сохранён успешно."
+
+#, fuzzy
+#~ msgid "The news could not be saved. Please, try again."
+#~ msgstr "Банк не удалось сохранить. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The news has been deleted."
+#~ msgstr "Банк удалён успешно."
+
+#, fuzzy
+#~ msgid "The news could not be deleted. Please, try again."
+#~ msgstr "Банк не удалось удалить. Пожалуйста, повторите снова."
+
+#, fuzzy
+#~ msgid "The organization has been saved."
+#~ msgstr "Публикация банка сохранена успешно."
+
+#, fuzzy
+#~ msgid "The organization could not be saved. Please, try again."
+#~ msgstr "Публикация банка не сохранена. Пожалуйста, повторите снова."
+
+#~ msgid "The post category has been saved."
+#~ msgstr "Категория публикаций сохранена успешно."
+
+#~ msgid "The post category could not be saved. Please, try again."
+#~ msgstr "Категория публикаций не сохранена. Пожалуйста, повторите снова."
+
+#~ msgid "The post category has been deleted."
+#~ msgstr "Категория публикаций успешно удалена."
+
+#~ msgid "The post category could not be deleted. Please, try again."
+#~ msgstr ""
+#~ "Категорию публикаций не удалось удалить. Пожалуйста, повторите снова."
+
+#~ msgid "Publish mode replaced successfully"
+#~ msgstr "Режим публикации успешно изменён"
+
+#~ msgid "Failed to change publish mode. Please try again."
+#~ msgstr "Не удалось изменить режим публикации. Пожалуйста, повторите снова."
+
+#~ msgid "Currency not found"
+#~ msgstr "Валюта не найдена"
+
+#~ msgid "Rate {0} in Uzbekistan"
+#~ msgstr "Курс {0} в Узбекистане"
+
+#~ msgid "Rate {0}"
+#~ msgstr "Курс {0}"
+
+#~ msgid "Last update {0}"
+#~ msgstr "Обновлено {0}"
+
+#~ msgid "Buy"
+#~ msgstr "Купить"
+
+#~ msgid "Sale"
+#~ msgstr "Продать"
+
+#~ msgid "Bank Name"
+#~ msgstr "Название банка"
+
+#~ msgid "More details"
+#~ msgstr "Подробнее"
+
+#~ msgid ""
+#~ "The best offers for the buy/sale of base currencies from Uzbek banks. "
+#~ "Exchange rate from the Central Bank of the Republic of Uzbekistan from {0}"
+#~ msgstr ""
+#~ "Лучшие предложения на покупку/продажу базовых иностранных валют в банках "
+#~ "Узбекистана. Обменные курсы от Центрального банка Республики Узбекистан "
+#~ "от {0}"
+
+#~ msgid "Currency"
+#~ msgstr "Валюта"
+
+#~ msgid "Rate Cb"
+#~ msgstr "Курс ЦБ РУз"
+
+#~ msgid ""
+#~ "The Central Bank of Uzbekistan sets foreign exchange rates against the "
+#~ "Uzbek sum once a week, on Tuesdays."
+#~ msgstr ""
+#~ "Центральный банк Республики Узбекистан устанавливает курсы иностранных "
+#~ "валют по отношению к узбекскому суму каждый вторник."
+
+#~ msgid "Best Buy"
+#~ msgstr "Лучшая покупка"
+
+#~ msgid "Highest exchange rates at which banks buy foreign currency."
+#~ msgstr ""
+#~ "Самые высокие обменные курсы, по которым банки покупают иностранную "
+#~ "валюту."
+
+#~ msgid "Best Sale"
+#~ msgstr "Лучшая продажа"
+
+#~ msgid "Lowest exchange rates at which banks sell foreign currency."
+#~ msgstr ""
+#~ "Самые низкие обменные курсы, по которым банки продают иностранную валюту."
+
+#~ msgid "Calculator"
+#~ msgstr "Калькулятор"
+
+#~ msgid "Currencies"
+#~ msgstr "Валюты"
+
+#~ msgid "Banks"
+#~ msgstr "Банки"
+
+#~ msgid "Exchange Rates"
+#~ msgstr "Обменные курсы"
+
+#~ msgid "Updated"
+#~ msgstr "Обновлён"
+
+#~ msgid "Address"
+#~ msgstr "Адрес"
+
+#~ msgid "Website"
+#~ msgstr "Веб-сайт"
+
+#~ msgid "License №{0} dated {1}"
+#~ msgstr "Лицензия №{0} от {1}"
+
+#~ msgid "No news"
+#~ msgstr "Нет новостей"
+
+#~ msgid "About {0}"
+#~ msgstr "О «{0}»"
+
+#~ msgid "General information about the bank"
+#~ msgstr "Основная информация о банке"
+
+#~ msgid "License"
+#~ msgstr "Лицензия"
+
+#~ msgid "Head Office"
+#~ msgstr "Головной офис"
+
+#~ msgid "Official site"
+#~ msgstr "Официальный сайт"
+
+#~ msgid "News"
+#~ msgstr "Новости"
+
+#~ msgid "Credits"
+#~ msgstr "Кредиты"
+
+#~ msgid "About the bank"
+#~ msgstr "О банке"
+
+#~ msgid "Rate"
+#~ msgstr "Курс"
+
+#~ msgid "Amount"
+#~ msgstr "Сумма"
+
+#~ msgid "Deposits"
+#~ msgstr "Вклады"
+
+#~ msgid "Events of the day"
+#~ msgstr "События дня"
+
+#~ msgid "Timeline"
+#~ msgstr "Лента новостей"
+
+#~ msgid "Posts"
+#~ msgstr "Публикации"
+
+#~ msgid "About"
+#~ msgstr "О Проекте"
+
+#~ msgid "Page navigation"
+#~ msgstr "Постраничная навигация"
+
+#~ msgid "previous"
+#~ msgstr "предыдущие"
+
+#~ msgid "next"
+#~ msgstr "следующие"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Please sign in"
+#~ msgstr "Пожалуйста, войдите"
+
+#~ msgid "All posts"
+#~ msgstr "Все статьи"
+
+#~ msgid "Head office"
+#~ msgstr "Головной офис"
+
+#~ msgid "News «{0}»"
+#~ msgstr "Новости «{0}»"
+
+#~ msgid "Other news"
+#~ msgstr "Другие новости"
+
+#~ msgid "No posts"
+#~ msgstr "Нет постов"
+
+#~ msgid "Sign in"
+#~ msgstr "Войти"
+
+#~ msgid "Bank Post not found"
+#~ msgstr "Публикация банка не найдена"
+
+#, fuzzy
+#~ msgid "The financial organization has been deleted."
+#~ msgstr "Публикация банка успешно удалена."
+
+#, fuzzy
+#~ msgid "The financial organization could not be deleted. Please, try again."
+#~ msgstr "Публикация банка не удалена. Пожалуйста, повторите снова."
+
+#~ msgid "Source: {0}"
+#~ msgstr "Источник: {0}"
+
+#~ msgid "Back to the list of posts"
+#~ msgstr "Вернуться к списку постов"
+
+#, fuzzy
+#~ msgid "No found page"
+#~ msgstr "Страница не найдена"
+
+#, fuzzy
+#~ msgid "Not found page"
+#~ msgstr "Страница не найдена"
+
+#~ msgid "Back to news list"
+#~ msgstr "Вернуться к списку новостей"
