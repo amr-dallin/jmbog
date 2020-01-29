@@ -9,9 +9,9 @@ echo $this->element('navigation', ['mode' => true]);
 $this->end();
 ?>
 
-<section class="cover height-100 imagebg text-center parallax" data-overlay="6">
+<section class="cover height-100 imagebg text-center parallax" data-overlay="8">
     <div class="background-image-holder">
-        <img alt="background" src="img/inner-4.jpg" />
+        <img alt="background" src="img/display.jpg" />
     </div>
     <div class="container pos-vertical-center">
         <div class="row">
