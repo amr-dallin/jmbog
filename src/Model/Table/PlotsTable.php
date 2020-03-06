@@ -34,7 +34,7 @@ class PlotsTable extends Table
         parent::initialize($config);
 
         $this->setTable('plots');
-        $this->setDisplayField('id');
+        $this->setDisplayField('number');
         $this->setPrimaryKey('id');
 
         $this->belongsTo('People', [

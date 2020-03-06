@@ -18,7 +18,8 @@ $this->end();
 echo $this->Html->css(
     [
         'formplugins/summernote/summernote',
-        'formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker'
+        'formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker',
+        'formplugins/select2/select2.bundle'
     ],
     ['block' => true]
 );
@@ -26,7 +27,8 @@ echo $this->Html->script(
     [
         'formplugins/summernote/summernote',
         'dependency/moment/moment',
-        'formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker'
+        'formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker',
+        'formplugins/select2/select2.bundle'
     ],
     ['block' => true]
 );
@@ -37,7 +39,7 @@ echo $this->Html->script(
 $(document).ready(function() {
     $('.summernote').summernote(
         {
-            height: '360px',
+            height: '200px',
             tabsize: 2,
             dialogsFade: true,
             toolbar: [
@@ -50,6 +52,8 @@ $(document).ready(function() {
             ]
         }
     );
+
+    $('.select2').select2();
 
     $('#date-beginning').daterangepicker({
         singleDatePicker: true,
@@ -108,7 +112,23 @@ $(document).ready(function() {
                         echo $this->Form->control('body', [
                             'class' => 'form-control summernote'
                         ]);
+
+                        echo $this->Html->tag('h5', __d('control_panel', 'Event Results'));
+                        echo $this->Form->control('result', [
+                            'class' => 'form-control summernote'
+                        ]);
                     ?>
+
+                    <?php if (!empty($plots)): ?>
+                    <h5><?= __d('control_panel', 'Present from summer cottages') ?></h5>
+                    <?php
+                    echo $this->Form->control('plots._ids', [
+                        'class' => 'form-control select2',
+                        'multiple' => true,
+                        'empty' => false
+                    ]);
+                    ?>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>

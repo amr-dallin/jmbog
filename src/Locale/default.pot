@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2020-01-28 23:05+0500\n"
+"POT-Creation-Date: 2020-03-06 21:38+0500\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,135 +14,164 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/SystemicPagesController.php:36
-#: Controller/SystemicPagesController.php:54
+#: config/paginator-templates.php:8
+msgid "Previous Page"
+msgstr ""
+
+#: config/paginator-templates.php:10
+msgid "Next Page"
+msgstr ""
+
+#: config/paginator-templates.php:12
+msgid "First Page"
+msgstr ""
+
+#: config/paginator-templates.php:13
+msgid "Last Page"
+msgstr ""
+
+#: config/paginator-templates.php:16
+msgid "Page"
+msgstr ""
+
+#: src/Controller/SystemicPagesController.php:36
+#: src/Controller/SystemicPagesController.php:54
 msgid "Page not found"
 msgstr ""
 
-#: Controller/UsersController.php:31
+#: src/Controller/UsersController.php:31
 msgid "Username or password is incorrect"
 msgstr ""
 
-#: Model/Table/UsersTable.php:69
-#: Model/Table/UsersTable.php:74
-#: Model/Table/UsersTable.php:80
+#: src/Model/Table/UsersTable.php:69
+#: src/Model/Table/UsersTable.php:74
+#: src/Model/Table/UsersTable.php:80
 msgid "Password must be at least 6 characters long."
 msgstr ""
 
-#: Model/Table/UsersTable.php:70
+#: src/Model/Table/UsersTable.php:70
 msgid "Password is required."
 msgstr ""
 
-#: Model/Table/UsersTable.php:75
+#: src/Model/Table/UsersTable.php:75
 msgid "You must enter the current password."
 msgstr ""
 
-#: Model/Table/UsersTable.php:79
+#: src/Model/Table/UsersTable.php:79
 msgid "You must enter a new password."
 msgstr ""
 
-#: Model/Table/UsersTable.php:85
+#: src/Model/Table/UsersTable.php:85
 msgid "New password and confirmation record do not match!"
 msgstr ""
 
-#: Model/Table/UsersTable.php:122
+#: src/Model/Table/UsersTable.php:122
 msgid "The current password is incorrectly entered!"
 msgstr ""
 
-#: Model/Table/UsersTable.php:136
+#: src/Model/Table/UsersTable.php:136
 msgid "The new password is no different from the current!"
 msgstr ""
 
-#: Template/Admin/People/ajax/add.ctp:28
+#: src/Template/Admin/People/ajax/add.ctp:28
 msgid "Error!"
 msgstr ""
 
-#: Template/Element/navigation.ctp:39
-#: Template/Element/navigation.ctp:41
+#: src/Template/Element/navigation.ctp:39
+#: src/Template/Element/navigation.ctp:41
 msgid "Home"
 msgstr ""
 
-#: Template/Element/navigation.ctp:47
-#: Template/Element/navigation.ctp:49
+#: src/Template/Element/navigation.ctp:47
+#: src/Template/Element/navigation.ctp:49
 msgid "Events"
 msgstr ""
 
-#: Template/Element/navigation.ctp:55
-#: Template/Element/navigation.ctp:57
+#: src/Template/Element/navigation.ctp:55
+#: src/Template/Element/navigation.ctp:57
 msgid "Plots"
 msgstr ""
 
-#: Template/Error/error400.ctp:5
+#: src/Template/Error/error400.ctp:5
 msgid "404 Page not found"
 msgstr ""
 
-#: Template/Error/error400.ctp:14
+#: src/Template/Error/error400.ctp:14
 msgid "The link you clicked may be damaged or the page deleted."
 msgstr ""
 
-#: Template/Error/error400.ctp:15
+#: src/Template/Error/error400.ctp:15
 msgid "Go {0} or visit {1}."
 msgstr ""
 
-#: Template/Error/error400.ctp:15
+#: src/Template/Error/error400.ctp:15
 msgid "back"
 msgstr ""
 
-#: Template/Error/error400.ctp:15
-#: Template/Error/error500.ctp:15
+#: src/Template/Error/error400.ctp:15
+#: src/Template/Error/error500.ctp:15
 msgid "home page"
 msgstr ""
 
-#: Template/Error/error500.ctp:5
+#: src/Template/Error/error500.ctp:5
 msgid "500 Internal error"
 msgstr ""
 
-#: Template/Error/error500.ctp:14
+#: src/Template/Error/error500.ctp:14
 msgid "An unexpected error has occured preventing the page from loading."
 msgstr ""
 
-#: Template/Error/error500.ctp:15
+#: src/Template/Error/error500.ctp:15
 msgid "Go back to {0}"
 msgstr ""
 
-#: Template/Events/index.ctp:61
-#: Template/SystemicPages/display.ctp:33
+#: src/Template/Events/index.ctp:61
+#: src/Template/SystemicPages/display.ctp:33
 msgid "Upcoming events"
 msgstr ""
 
-#: Template/Events/index.ctp:94
-#: Template/Events/index.ctp:145
-#: Template/SystemicPages/display.ctp:66
+#: src/Template/Events/index.ctp:94
+#: src/Template/Events/index.ctp:145
+#: src/Template/SystemicPages/display.ctp:66
 msgid "More"
 msgstr ""
 
-#: Template/Events/index.ctp:120
+#: src/Template/Events/index.ctp:120
 msgid "Completed activities"
 msgstr ""
 
-#: Template/Events/view.ctp:29
-msgid "Completed"
+#: src/Template/Events/view.ctp:38
+#: src/Template/Events/view.ctp:61
+msgid "Event Results"
 msgstr ""
 
-#: Template/Plots/index.ctp:63
+#: src/Template/Events/view.ctp:76
+msgid "Attended the event"
+msgstr ""
+
+#: src/Template/Events/view.ctp:77
+msgid "The event was attended by the owners of {0} land"
+msgstr ""
+
+#: src/Template/Plots/index.ctp:63
 msgid "Number"
 msgstr ""
 
-#: Template/Plots/index.ctp:64
+#: src/Template/Plots/index.ctp:64
 msgid "Owner"
 msgstr ""
 
-#: Template/Users/login.ctp:3
-#: Template/Users/login.ctp:13
-#: Template/Users/login.ctp:35
+#: src/Template/Users/login.ctp:3
+#: src/Template/Users/login.ctp:13
+#: src/Template/Users/login.ctp:35
 msgid "Log in"
 msgstr ""
 
-#: Template/Users/login.ctp:20
+#: src/Template/Users/login.ctp:20
 msgid "Username"
 msgstr ""
 
-#: Template/Users/login.ctp:29
+#: src/Template/Users/login.ctp:29
 msgid "Password"
 msgstr ""
 

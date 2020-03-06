@@ -20,11 +20,11 @@ class FilesHelper extends Helper
     {
         $bytes = floatval($bytes);
         $items = [
-            ['unit' => __('Tb'), 'value' => pow(1024, 4)],
-            ['unit' => __('Gb'), 'value' => pow(1024, 3)],
-            ['unit' => __('Mb'), 'value' => pow(1024, 2)],
-            ['unit' => __('Kb'), 'value' => 1024],
-            ['unit' => __('b'), 'value' => 1]
+            ['unit' => __d('control_panel', 'Tb'), 'value' => pow(1024, 4)],
+            ['unit' => __d('control_panel', 'Gb'), 'value' => pow(1024, 3)],
+            ['unit' => __d('control_panel', 'Mb'), 'value' => pow(1024, 2)],
+            ['unit' => __d('control_panel', 'Kb'), 'value' => 1024],
+            ['unit' => __d('control_panel', 'b'), 'value' => 1]
         ];
 
         foreach($items as $item) {

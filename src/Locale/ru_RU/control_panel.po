@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PRO Деньги (Админка)\n"
-"POT-Creation-Date: 2020-01-11 16:00+0500\n"
-"PO-Revision-Date: 2020-01-11 16:00+0500\n"
+"POT-Creation-Date: 2020-03-06 21:39+0500\n"
+"PO-Revision-Date: 2020-03-06 21:40+0500\n"
 "Last-Translator: Marat Dallin <amr.dallin@gmail.com>\n"
 "Language-Team: Marat Dallin <mail@dallin.uz>\n"
 "Language: ru_RU\n"
@@ -16,970 +16,1146 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
-#: /config/app_form.php:20
+#: plugins/ControlPanel/config/app_form.php:20
 msgid "Choose file"
 msgstr "Выбрать"
 
-#: /src/Template/Admin/BankExchangeRates/today.ctp:2
-#: /src/Template/Admin/Element/navigation.ctp:46
-msgid "Bank exchange rates today"
-msgstr "Сегодняшние банковские курсы валют"
+#: plugins/ControlPanel/src/Template/Admin/Element/breadcrumbs.ctp:3
+#: plugins/ControlPanel/src/Template/Admin/Element/breadcrumbs.ctp:5
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/dashboard.ctp:2
+#: src/Template/Admin/Element/breadcrumbs.ctp:3
+#: src/Template/Admin/Element/breadcrumbs.ctp:5
+#: src/Template/Admin/Element/navigation.ctp:25
+#: src/Template/Admin/Element/navigation.ctp:29
+msgid "Dashboard"
+msgstr "Консоль"
 
-#: /src/Template/Admin/BankExchangeRates/today.ctp:6
-msgid "bank exchange rates today"
-msgstr "банковские курсы валют сегодня"
+#: plugins/ControlPanel/src/Template/Admin/Element/Flash/error.ctp:10
+#: src/Template/Admin/Element/Flash/error.ctp:10
+msgid "Error!"
+msgstr "Ошибка!"
 
-#: /src/Template/Admin/BankExchangeRates/today.ctp:222
-msgid "Select bank"
-msgstr "Выбрать банк"
+#: plugins/ControlPanel/src/Template/Admin/Element/Flash/success.ctp:11
+#: src/Template/Admin/Element/Flash/success.ctp:11
+msgid "Well Done!"
+msgstr "Отлично сработано!"
 
-#: /src/Template/Admin/BankExchangeRates/today.ctp:226
-msgid "Select currency"
-msgstr "Выбрать валюту"
+#: plugins/ControlPanel/src/Template/Admin/Files/add.ctp:2
+#: plugins/ControlPanel/src/Template/Admin/Files/add.ctp:7
+#: src/Template/Admin/Element/navigation.ctp:270
+msgid "Create file(s)"
+msgstr "Создать файл(ы)"
 
-#: /src/Template/Admin/BankExchangeRates/today.ctp:235
-#: /src/View/Helper/BankExchangeRatesHelper.php:110
-msgid "Buy"
-msgstr "Купить"
+#: plugins/ControlPanel/src/Template/Admin/Files/add.ctp:6
+#: plugins/ControlPanel/src/Template/Admin/Files/documents.ctp:6
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:6
+#: plugins/ControlPanel/src/Template/Admin/Files/index.ctp:2
+#: plugins/ControlPanel/src/Template/Admin/Files/index.ctp:6
+#: src/Template/Admin/Element/navigation.ctp:252
+#: src/Template/Admin/Element/navigation.ctp:256
+msgid "Files"
+msgstr "Файлы"
 
-#: /src/Template/Admin/BankExchangeRates/today.ctp:246
-#: /src/View/Helper/BankExchangeRatesHelper.php:116
-msgid "Sale"
-msgstr "Продать"
+#: plugins/ControlPanel/src/Template/Admin/Files/add.ctp:30
+msgid "Drop files here or click to upload"
+msgstr "Перетащите файлы в эту область или нажмите на неё для загрузки"
 
-#: /src/Template/Admin/BankExchangeRates/today.ctp:257
-#: /src/Template/Admin/BankPosts/edit.ctp:95
-#: /src/Template/Admin/Banks/add.ctp:152 /src/Template/Admin/Banks/edit.ctp:163
-#: /src/Template/Admin/CreditCategories/add.ctp:100
-#: /src/Template/Admin/CreditCategories/edit.ctp:101
-#: /src/Template/Admin/News/add.ctp:137 /src/Template/Admin/News/edit.ctp:149
-#: /src/Template/Admin/NewsCategories/add.ctp:88
-#: /src/Template/Admin/NewsCategories/edit.ctp:88
-#: /src/Template/Admin/Organizations/edit.ctp:108
-#: /src/Template/Admin/Pages/add.ctp:88 /src/Template/Admin/Pages/edit.ctp:99
-#: /src/Template/Admin/PostCategories/add.ctp:88
-#: /src/Template/Admin/PostCategories/edit.ctp:77
-#: /src/Template/Admin/Posts/add.ctp:97 /src/Template/Admin/Posts/edit.ctp:107
-#: /src/Template/Admin/SystemicPages/add.ctp:71
-#: /src/Template/Admin/SystemicPages/edit.ctp:71
-#: /src/View/Helper/BankExchangeRatesHelper.php:118
-msgid "Save"
-msgstr "Сохранить"
+#: plugins/ControlPanel/src/Template/Admin/Files/documents.ctp:2
+#: plugins/ControlPanel/src/Template/Admin/Files/documents.ctp:7
+#: src/Template/Admin/Element/navigation.ctp:307
+#: src/Template/Admin/Element/navigation.ctp:311
+msgid "Documents"
+msgstr "Документы"
 
-#: /src/Template/Admin/BankExchangeRates/today.ctp:285
-msgid "Without parsing exchange rates"
-msgstr "Без парсинга курса валют"
+#: plugins/ControlPanel/src/Template/Admin/Files/documents.ctp:54
+#: plugins/ControlPanel/src/Template/Admin/Files/index.ctp:53
+msgid "Name"
+msgstr "Название"
 
-#: /src/Template/Admin/BankPosts/edit.ctp:7
-#: /src/Template/Admin/BankPosts/index.ctp:7
-#: /src/Template/Admin/Banks/add.ctp:6 /src/Template/Admin/Banks/edit.ctp:7
-#: /src/Template/Admin/Banks/index.ctp:2 /src/Template/Admin/Banks/index.ctp:6
-#: /src/Template/Admin/Element/navigation.ctp:468
-#: /src/Template/Admin/Element/navigation.ctp:472
-#: /src/Template/Admin/News/add.ctp:178 /src/Template/Admin/News/edit.ctp:195
-msgid "Banks"
-msgstr "Банки"
+#: plugins/ControlPanel/src/Template/Admin/Files/documents.ctp:55
+#: plugins/ControlPanel/src/Template/Admin/Files/index.ctp:54
+msgid "Size"
+msgstr "Размер"
 
-#: /src/Template/Admin/BankPosts/edit.ctp:9
-#: /src/Template/Admin/BankPosts/index.ctp:9
-#: /src/Template/Admin/Element/navigation.ctp:172
-#: /src/Template/Admin/Element/navigation.ctp:176
-#: /src/Template/Admin/PostCategories/add.ctp:6
-#: /src/Template/Admin/PostCategories/edit.ctp:6
-#: /src/Template/Admin/PostCategories/index.ctp:6
-#: /src/Template/Admin/Posts/add.ctp:6 /src/Template/Admin/Posts/edit.ctp:6
-#: /src/Template/Admin/Posts/index.ctp:2 /src/Template/Admin/Posts/index.ctp:6
-msgid "Posts"
-msgstr "Публикации"
+#: plugins/ControlPanel/src/Template/Admin/Files/documents.ctp:56
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:133
+#: plugins/ControlPanel/src/Template/Admin/Files/index.ctp:55
+msgid "Mime Type"
+msgstr "Тип файла"
 
-#: /src/Template/Admin/BankPosts/edit.ctp:46
-msgid "Source:"
-msgstr "Источник:"
+#: plugins/ControlPanel/src/Template/Admin/Files/documents.ctp:79
+#: plugins/ControlPanel/src/Template/Admin/Files/index.ctp:78
+msgid "Are you sure you want to delete the file?"
+msgstr "Вы уверены, что хотите удалить файл?"
 
-#: /src/Template/Admin/BankPosts/edit.ctp:52
-msgid "Date:"
-msgstr "Дата:"
-
-#: /src/Template/Admin/BankPosts/edit.ctp:66
-#: /src/Template/Admin/BankPosts/index.ctp:58
-#: /src/Template/Admin/Banks/add.ctp:236 /src/Template/Admin/Banks/add.ctp:267
-#: /src/Template/Admin/Banks/edit.ctp:238
-#: /src/Template/Admin/Banks/edit.ctp:269
-#: /src/Template/Admin/Banks/index.ctp:49
-#: /src/Template/Admin/CreditCategories/index.ctp:50
-#: /src/Template/Admin/News/add.ctp:113 /src/Template/Admin/News/add.ctp:184
-#: /src/Template/Admin/News/edit.ctp:113 /src/Template/Admin/News/edit.ctp:201
-#: /src/Template/Admin/News/index.ctp:44
-#: /src/Template/Admin/News/index_model.ctp:47
-#: /src/Template/Admin/News/index_parsing.ctp:47
-#: /src/Template/Admin/NewsCategories/add.ctp:65
-#: /src/Template/Admin/NewsCategories/edit.ctp:65
-#: /src/Template/Admin/NewsCategories/index.ctp:45
-#: /src/Template/Admin/Organizations/edit.ctp:146
-#: /src/Template/Admin/Pages/add.ctp:64 /src/Template/Admin/Pages/edit.ctp:64
-#: /src/Template/Admin/Pages/index.ctp:49
-#: /src/Template/Admin/PostCategories/add.ctp:65
-#: /src/Template/Admin/PostCategories/edit.ctp:51
-#: /src/Template/Admin/PostCategories/index.ctp:45
-#: /src/Template/Admin/Posts/add.ctp:73 /src/Template/Admin/Posts/edit.ctp:73
-#: /src/Template/Admin/Posts/index.ctp:44
-#: /src/Template/Admin/SystemicPages/add.ctp:52
-#: /src/Template/Admin/SystemicPages/dashboard.ctp:49
-#: /src/Template/Admin/SystemicPages/edit.ctp:52
-#: /src/Template/Admin/SystemicPages/index.ctp:49
-msgid "Title"
-msgstr "Заголовок"
-
-#: /src/Template/Admin/BankPosts/edit.ctp:79
-#: /src/Template/Admin/Banks/add.ctp:146 /src/Template/Admin/Banks/edit.ctp:147
-#: /src/Template/Admin/CreditCategories/add.ctp:84
-#: /src/Template/Admin/CreditCategories/edit.ctp:85
-#: /src/Template/Admin/News/add.ctp:131 /src/Template/Admin/News/edit.ctp:131
-#: /src/Template/Admin/NewsCategories/add.ctp:83
-#: /src/Template/Admin/NewsCategories/edit.ctp:83
-#: /src/Template/Admin/Organizations/edit.ctp:103
-#: /src/Template/Admin/Pages/add.ctp:82 /src/Template/Admin/Pages/edit.ctp:82
-#: /src/Template/Admin/PostCategories/add.ctp:83
-#: /src/Template/Admin/Posts/add.ctp:91 /src/Template/Admin/Posts/edit.ctp:91
-#: /src/Template/Admin/SystemicPages/add.ctp:66
-#: /src/Template/Admin/SystemicPages/edit.ctp:66
-msgid "Publish mode"
-msgstr "Режим публикации"
-
-#: /src/Template/Admin/BankPosts/edit.ctp:87
-#: /src/Template/Admin/Banks/edit.ctp:155
-#: /src/Template/Admin/CreditCategories/add.ctp:92
-#: /src/Template/Admin/CreditCategories/edit.ctp:93
-#: /src/Template/Admin/Files/images.ctp:158
-#: /src/Template/Admin/News/edit.ctp:141 /src/Template/Admin/Pages/edit.ctp:90
-#: /src/Template/Admin/PostCategories/edit.ctp:69
-#: /src/Template/Admin/Posts/edit.ctp:99
-msgid "Delete"
-msgstr "Удалить"
-
-#: /src/Template/Admin/BankPosts/edit.ctp:91
-msgid "Are you sure you want to delete the post bank?"
-msgstr "Вы уверены, что хотите удалить публикацию банка?"
-
-#: /src/Template/Admin/BankPosts/edit.ctp:92
-#: /src/Template/Admin/Files/documents.ctp:80
-#: /src/Template/Admin/Files/images.ctp:164
-#: /src/Template/Admin/Files/index.ctp:79 /src/Template/Admin/Pages/edit.ctp:95
-#: /src/Template/Admin/Posts/edit.ctp:104
+#: plugins/ControlPanel/src/Template/Admin/Files/documents.ctp:80
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:164
+#: plugins/ControlPanel/src/Template/Admin/Files/index.ctp:79
+#: src/Template/Admin/Pages/edit.ctp:95
 msgid "Deletion eliminates the possibility of data recovery."
 msgstr "Удаление исключает возможность восстановления данных."
 
-#: /src/Template/Admin/BankPosts/index.ctp:2
-msgid "Post from «{0}»"
-msgstr "Публикация от «{0}»"
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:2
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:7
+#: src/Template/Admin/Element/navigation.ctp:320
+#: src/Template/Admin/Element/navigation.ctp:324
+msgid "Images"
+msgstr "Изображения"
 
-#: /src/Template/Admin/BankPosts/index.ctp:45
-msgid "Publications extracted from the bank's website."
-msgstr "Публикации взяты с официальных веб-сайтов банков."
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:119
+msgid "Detail Image"
+msgstr "Детали изображения"
 
-#: /src/Template/Admin/BankPosts/index.ctp:59
-#: /src/Template/Admin/News/add.ctp:167 /src/Template/Admin/News/edit.ctp:184
-#: /src/Template/Admin/SystemicPages/dashboard.ctp:50
-msgid "Source"
-msgstr "Источник"
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:131
+msgid "Filename"
+msgstr "Название"
 
-#: /src/Template/Admin/BankPosts/index.ctp:60
-#: /src/Template/Admin/SystemicPages/dashboard.ctp:51
-msgid "Date Source"
-msgstr "Дата"
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:135
+msgid "Date Created"
+msgstr "Дата создания"
 
-#: /src/Template/Admin/BankPosts/index.ctp:61
-#: /src/Template/Admin/Banks/index.ctp:51
-#: /src/Template/Admin/CreditCategories/index.ctp:51
-#: /src/Template/Admin/News/index.ctp:45
-#: /src/Template/Admin/News/index_model.ctp:48
-#: /src/Template/Admin/News/index_parsing.ctp:48
-#: /src/Template/Admin/Pages/index.ctp:51
-#: /src/Template/Admin/Posts/index.ctp:45
-#: /src/Template/Admin/SystemicPages/dashboard.ctp:52
-msgid "Mode"
-msgstr "Режим"
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:137
+msgid "Filesize"
+msgstr "Размер файла"
 
-#: /src/Template/Admin/Banks/add.ctp:2
-#: /src/Template/Admin/Element/navigation.ctp:486
-msgid "Create bank"
-msgstr "Создать банк"
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:145
+msgid "Copy URL"
+msgstr "Копировать URL"
 
-#: /src/Template/Admin/Banks/add.ctp:7
-#: /src/Template/Admin/CreditCategories/add.ctp:8
-#: /src/Template/Admin/Element/navigation.ctp:93
-#: /src/Template/Admin/Element/navigation.ctp:137
-#: /src/Template/Admin/Element/navigation.ctp:186
-#: /src/Template/Admin/Element/navigation.ctp:230
-#: /src/Template/Admin/Element/navigation.ctp:293
-#: /src/Template/Admin/Element/navigation.ctp:337
-#: /src/Template/Admin/Element/navigation.ctp:386
-#: /src/Template/Admin/Element/navigation.ctp:482
-#: /src/Template/Admin/Element/navigation.ctp:572
-#: /src/Template/Admin/News/add.ctp:7
-#: /src/Template/Admin/NewsCategories/add.ctp:8
-#: /src/Template/Admin/Pages/add.ctp:7
-#: /src/Template/Admin/PostCategories/add.ctp:8
-#: /src/Template/Admin/Posts/add.ctp:7
-#: /src/Template/Admin/SystemicPages/add.ctp:7
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:158
+#: src/Template/Admin/Events/edit.ctp:146 src/Template/Admin/Pages/edit.ctp:90
+#: src/Template/Admin/People/edit.ctp:53 src/Template/Admin/Plots/edit.ctp:84
+msgid "Delete"
+msgstr "Удалить"
+
+#: plugins/ControlPanel/src/Template/Admin/Files/images.ctp:163
+msgid "Are you sure you want to delete the image?"
+msgstr "Вы уверены, что хотите удалить изображение?"
+
+#: plugins/ControlPanel/src/Template/Admin/Settings/add.ctp:2
+#, fuzzy
+msgid "Create New Setting"
+msgstr "Создать категорию новостей"
+
+#: plugins/ControlPanel/src/Template/Admin/Settings/add.ctp:6
+#: src/Template/Admin/Pages/add.ctp:7
+#, fuzzy
+msgid "Create New"
+msgstr "Создать новый"
+
+#: plugins/ControlPanel/src/Template/Admin/Settings/add.ctp:27
+#, fuzzy
+msgid "Key"
+msgstr "Ключ"
+
+#: plugins/ControlPanel/src/Template/Admin/Settings/add.ctp:32
+msgid "Text"
+msgstr ""
+
+#: plugins/ControlPanel/src/Template/Admin/Settings/add.ctp:33
+msgid "Checkbox"
+msgstr ""
+
+#: plugins/ControlPanel/src/Template/Admin/Settings/add.ctp:34
+msgid "Textarea"
+msgstr ""
+
+#: plugins/ControlPanel/src/Template/Admin/Settings/add.ctp:38
+#: plugins/ControlPanel/src/Template/Admin/Settings/index.ctp:51
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/add.ctp:52
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/edit.ctp:52
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/index.ctp:49
+#: src/Template/Admin/Events/add.ctp:104 src/Template/Admin/Events/edit.ctp:109
+#: src/Template/Admin/Events/index.ctp:48 src/Template/Admin/Pages/add.ctp:64
+#: src/Template/Admin/Pages/edit.ctp:64 src/Template/Admin/Pages/index.ctp:49
+msgid "Title"
+msgstr "Заголовок"
+
+#: plugins/ControlPanel/src/Template/Admin/Settings/add.ctp:41
+#: plugins/ControlPanel/src/Template/Admin/Settings/index.ctp:52
+#, fuzzy
+msgid "Value"
+msgstr "Значение"
+
+#: plugins/ControlPanel/src/Template/Admin/Settings/index.ctp:2
+#, fuzzy
+msgid "{0} — Settings"
+msgstr "Настройки"
+
+#: plugins/ControlPanel/src/Template/Admin/Settings/index.ctp:8
+#: plugins/ControlPanel/src/Template/Admin/Users/settings.ctp:2
+#: plugins/ControlPanel/src/Template/Admin/Users/settings.ctp:6
+#: src/Template/Admin/Layout/default.ctp:168
+msgid "Settings"
+msgstr "Настройки"
+
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/add.ctp:2
+#: src/Template/Admin/Element/navigation.ctp:221
+msgid "Create systemic page"
+msgstr "Создать системную страницу"
+
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/add.ctp:6
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/edit.ctp:6
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/index.ctp:2
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/index.ctp:6
+#: src/Template/Admin/Element/navigation.ctp:207
+msgid "Systemic pages"
+msgstr "Системные страницы"
+
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/add.ctp:7
+#: src/Template/Admin/Element/navigation.ctp:58
+#: src/Template/Admin/Element/navigation.ctp:105
+#: src/Template/Admin/Element/navigation.ctp:152
+#: src/Template/Admin/Element/navigation.ctp:217
+#: src/Template/Admin/Element/navigation.ctp:266
+#: src/Template/Admin/Events/add.ctp:7 src/Template/Admin/People/add.ctp:7
+#: src/Template/Admin/Plots/add.ctp:7
 msgid "Create"
 msgstr "Создать"
 
-#: /src/Template/Admin/Banks/add.ctp:79 /src/Template/Admin/Banks/edit.ctp:80
-#: /src/Template/Admin/Organizations/edit.ctp:67
-msgid "Name of the bank"
-msgstr "Название банка"
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/add.ctp:66
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/edit.ctp:66
+#: src/Template/Admin/Events/add.ctp:118 src/Template/Admin/Events/edit.ctp:139
+#: src/Template/Admin/Pages/add.ctp:82 src/Template/Admin/Pages/edit.ctp:82
+#: src/Template/Admin/People/add.ctp:45 src/Template/Admin/People/edit.ctp:46
+#: src/Template/Admin/Plots/add.ctp:76 src/Template/Admin/Plots/edit.ctp:77
+msgid "Publish mode"
+msgstr "Режим публикации"
 
-#: /src/Template/Admin/Banks/add.ctp:83 /src/Template/Admin/Banks/edit.ctp:84
-#: /src/Template/Admin/CreditCategories/add.ctp:70
-#: /src/Template/Admin/CreditCategories/edit.ctp:71
-#: /src/Template/Admin/News/add.ctp:117 /src/Template/Admin/News/edit.ctp:117
-#: /src/Template/Admin/NewsCategories/add.ctp:69
-#: /src/Template/Admin/NewsCategories/edit.ctp:69
-#: /src/Template/Admin/Organizations/edit.ctp:71
-#: /src/Template/Admin/Pages/add.ctp:68 /src/Template/Admin/Pages/edit.ctp:68
-#: /src/Template/Admin/PostCategories/add.ctp:69
-#: /src/Template/Admin/Posts/add.ctp:77 /src/Template/Admin/Posts/edit.ctp:77
-msgid "Slug"
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/add.ctp:71
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/edit.ctp:71
+#: src/Template/Admin/Events/add.ctp:123 src/Template/Admin/Events/edit.ctp:154
+#: src/Template/Admin/Pages/add.ctp:88 src/Template/Admin/Pages/edit.ctp:99
+#: src/Template/Admin/People/add.ctp:50 src/Template/Admin/People/edit.ctp:61
+#: src/Template/Admin/Plots/add.ctp:81 src/Template/Admin/Plots/edit.ctp:92
+msgid "Save"
+msgstr "Сохранить"
+
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/index.ctp:48
+#: src/Template/Admin/People/index.ctp:48
+msgid "ID"
+msgstr "ID"
+
+#: plugins/ControlPanel/src/Template/Admin/SystemicPages/index.ctp:50
+msgid "Date Modified"
+msgstr "Дата изменения"
+
+#: plugins/ControlPanel/src/Template/Admin/Users/settings.ctp:26
+msgid "Current Password"
+msgstr "Текущий пароль"
+
+#: plugins/ControlPanel/src/Template/Admin/Users/settings.ctp:30
+msgid "New Password"
+msgstr "Новый пароль"
+
+#: plugins/ControlPanel/src/Template/Admin/Users/settings.ctp:34
+msgid "Confirm New Password"
+msgstr "Подтвердите новый пароль"
+
+#: plugins/ControlPanel/src/View/Helper/FilesHelper.php:23
+msgid "Tb"
+msgstr ""
+
+#: plugins/ControlPanel/src/View/Helper/FilesHelper.php:24
+msgid "Gb"
+msgstr ""
+
+#: plugins/ControlPanel/src/View/Helper/FilesHelper.php:25
+msgid "Mb"
+msgstr ""
+
+#: plugins/ControlPanel/src/View/Helper/FilesHelper.php:26
+msgid "Kb"
+msgstr ""
+
+#: plugins/ControlPanel/src/View/Helper/FilesHelper.php:27
+msgid "b"
+msgstr ""
+
+#: src/Controller/Admin/EventsController.php:40
+#: src/Controller/Admin/EventsController.php:68
+msgid "The event has been saved."
+msgstr ""
+
+#: src/Controller/Admin/EventsController.php:44
+#: src/Controller/Admin/EventsController.php:72
+msgid "The event could not be saved. Please, try again."
+msgstr ""
+
+#: src/Controller/Admin/EventsController.php:91
+msgid "The event has been deleted."
+msgstr ""
+
+#: src/Controller/Admin/EventsController.php:93
+msgid "The event could not be deleted. Please, try again."
+msgstr ""
+
+#: src/Controller/Admin/FilesController.php:55
+#, fuzzy
+msgid "The file has been saved."
+msgstr "Медиафайл был сохранен."
+
+#: src/Controller/Admin/FilesController.php:59
+#, fuzzy
+msgid "The file could not be saved. Please, try again."
+msgstr "Медиафайл не может быть сохранен. Пожалуйста, попробуйте еще раз."
+
+#: src/Controller/Admin/FilesController.php:76
+#, fuzzy
+msgid "The file has been deleted."
+msgstr "Файл успешно удалён."
+
+#: src/Controller/Admin/FilesController.php:78
+#, fuzzy
+msgid "The file could not be deleted. Please, try again."
+msgstr "Файл не удалось удалить. Пожалуйста, повторите снова."
+
+#: src/Controller/Admin/PeopleController.php:51
+#: src/Controller/Admin/PeopleController.php:75
+#, fuzzy
+msgid "The person has been saved."
+msgstr "Персональные данные были сохранены."
+
+#: src/Controller/Admin/PeopleController.php:55
+#: src/Controller/Admin/PeopleController.php:79
+#, fuzzy
+msgid "The person could not be saved. Please, try again."
+msgstr "Персональные данные не были сохранены. Пожалуйста, повторите снова."
+
+#: src/Controller/Admin/PeopleController.php:96
+#, fuzzy
+msgid "The person has been deleted."
+msgstr "Персональные данные удалены."
+
+#: src/Controller/Admin/PeopleController.php:98
+#, fuzzy
+msgid "The person could not be deleted. Please, try again."
+msgstr "Персональные данные не удалены. Пожалуйста, повторите снова."
+
+#: src/Controller/Admin/PlotsController.php:40
+#: src/Controller/Admin/PlotsController.php:64
+msgid "The plot has been saved."
+msgstr ""
+
+#: src/Controller/Admin/PlotsController.php:44
+#: src/Controller/Admin/PlotsController.php:68
+msgid "The plot could not be saved. Please, try again."
+msgstr ""
+
+#: src/Controller/Admin/PlotsController.php:86
+msgid "The plot has been deleted."
+msgstr ""
+
+#: src/Controller/Admin/PlotsController.php:88
+msgid "The plot could not be deleted. Please, try again."
+msgstr ""
+
+#: src/Controller/Admin/SystemicPagesController.php:52
+#: src/Controller/Admin/SystemicPagesController.php:76
+#, fuzzy
+msgid "The systemic page has been saved."
+msgstr "Системная страница успешно сохранена."
+
+#: src/Controller/Admin/SystemicPagesController.php:56
+#: src/Controller/Admin/SystemicPagesController.php:80
+#, fuzzy
+msgid "The systemic page could not be saved. Please, try again."
+msgstr "Системную страницу не удалось сохранить. Пожалуйста, повторите снова."
+
+#: src/Controller/Admin/UsersController.php:29
+#, fuzzy
+msgid "Username or password is incorrect"
+msgstr "Имя пользователя или пароль не верен."
+
+#: src/Controller/Admin/UsersController.php:53
+#, fuzzy
+msgid "The user password has been changed. Please, Log In."
+msgstr "Пользовательский пароль успешно изменён. Пожалуйста, войдите снова."
+
+#: src/Controller/Admin/UsersController.php:57
+#, fuzzy
+msgid "The user has been saved."
+msgstr "Пользователь был сохранен."
+
+#: src/Controller/Admin/UsersController.php:60
+#, fuzzy
+msgid "The user could not be saved. Please, try again."
+msgstr "Пользователь не может быть сохранен. Пожалуйста, попробуйте еще раз."
+
+#: src/Template/Admin/Element/navigation.ctp:29
+#, fuzzy
+msgid "dashboard"
+msgstr "Dashboard"
+
+#: src/Template/Admin/Element/navigation.ctp:35
+msgid "Objects"
+msgstr ""
+
+#: src/Template/Admin/Element/navigation.ctp:44
+#: src/Template/Admin/Element/navigation.ctp:48
+#: src/Template/Admin/Events/add.ctp:6 src/Template/Admin/Events/edit.ctp:7
+#: src/Template/Admin/Events/index.ctp:2 src/Template/Admin/Events/index.ctp:6
+#, fuzzy
+msgid "Events"
+msgstr "События"
+
+#: src/Template/Admin/Element/navigation.ctp:48
+msgid "events"
+msgstr "События"
+
+#: src/Template/Admin/Element/navigation.ctp:62
+#: src/Template/Admin/Events/add.ctp:2
+msgid "Create event"
+msgstr "Создать событие"
+
+#: src/Template/Admin/Element/navigation.ctp:62
+#, fuzzy
+msgid "create event"
+msgstr "создать новость"
+
+#: src/Template/Admin/Element/navigation.ctp:72
+#: src/Template/Admin/Element/navigation.ctp:119
+#: src/Template/Admin/Element/navigation.ctp:166
+#: src/Template/Admin/Element/navigation.ctp:231
+#: src/Template/Admin/Element/navigation.ctp:280
+msgid "List"
+msgstr "Список"
+
+#: src/Template/Admin/Element/navigation.ctp:76
+#, fuzzy
+msgid "List events"
+msgstr "Список новостей"
+
+#: src/Template/Admin/Element/navigation.ctp:76
+#, fuzzy
+msgid "list events"
+msgstr "список новостей"
+
+#: src/Template/Admin/Element/navigation.ctp:91
+#: src/Template/Admin/Element/navigation.ctp:95
+#: src/Template/Admin/Element/navigation.ctp:142
+#: src/Template/Admin/Plots/add.ctp:6 src/Template/Admin/Plots/edit.ctp:7
+#: src/Template/Admin/Plots/index.ctp:2 src/Template/Admin/Plots/index.ctp:6
+#, fuzzy
+msgid "Plots"
+msgstr "Дачные участки"
+
+#: src/Template/Admin/Element/navigation.ctp:95
+#: src/Template/Admin/Element/navigation.ctp:142
+#, fuzzy
+msgid "plots"
+msgstr "Дачные участки"
+
+#: src/Template/Admin/Element/navigation.ctp:109
+#: src/Template/Admin/Plots/add.ctp:2
+#, fuzzy
+msgid "Create plot"
+msgstr "Создать статью"
+
+#: src/Template/Admin/Element/navigation.ctp:109
+#, fuzzy
+msgid "create plot"
+msgstr "создать статью"
+
+#: src/Template/Admin/Element/navigation.ctp:123
+#, fuzzy
+msgid "List plots"
+msgstr "Список статей"
+
+#: src/Template/Admin/Element/navigation.ctp:123
+#, fuzzy
+msgid "list plots"
+msgstr "список статей"
+
+#: src/Template/Admin/Element/navigation.ctp:138
+#: src/Template/Admin/People/add.ctp:6 src/Template/Admin/People/edit.ctp:7
+#: src/Template/Admin/People/index.ctp:2 src/Template/Admin/People/index.ctp:6
+#, fuzzy
+msgid "People"
+msgstr "Люди"
+
+#: src/Template/Admin/Element/navigation.ctp:156
+#: src/Template/Admin/People/add.ctp:2
+#: src/Template/Admin/People/ajax/add.ctp:13
+#, fuzzy
+msgid "Create person"
+msgstr "Создать статью"
+
+#: src/Template/Admin/Element/navigation.ctp:156
+#, fuzzy
+msgid "create person"
+msgstr "создать статью"
+
+#: src/Template/Admin/Element/navigation.ctp:170
+#, fuzzy
+msgid "List people"
+msgstr "Список статей"
+
+#: src/Template/Admin/Element/navigation.ctp:170
+#, fuzzy
+msgid "list people"
+msgstr "список статей"
+
+#: src/Template/Admin/Element/navigation.ctp:180
+msgid "Publications and files"
+msgstr "Публикации и файлы"
+
+#: src/Template/Admin/Element/navigation.ctp:189
+#: src/Template/Admin/Element/navigation.ctp:193
+#: src/Template/Admin/Pages/edit.ctp:6 src/Template/Admin/Pages/index.ctp:6
+msgid "Pages"
+msgstr "Страницы"
+
+#: src/Template/Admin/Element/navigation.ctp:193
+msgid "pages"
+msgstr "страницы"
+
+#: src/Template/Admin/Element/navigation.ctp:203
+msgid "Systemic"
+msgstr "Системные"
+
+#: src/Template/Admin/Element/navigation.ctp:207
+msgid "systemic pages"
+msgstr "Системные страницы"
+
+#: src/Template/Admin/Element/navigation.ctp:221
+msgid "create systemic page"
+msgstr "создать системную страницу"
+
+#: src/Template/Admin/Element/navigation.ctp:235
+msgid "List systemic pages"
+msgstr "Список системных страниц"
+
+#: src/Template/Admin/Element/navigation.ctp:235
+msgid "list systemic pages"
+msgstr "список системных страниц"
+
+#: src/Template/Admin/Element/navigation.ctp:256
+msgid "files"
+msgstr "файлы"
+
+#: src/Template/Admin/Element/navigation.ctp:270
+msgid "create file"
+msgstr "создать файл"
+
+#: src/Template/Admin/Element/navigation.ctp:284
+msgid "List files"
+msgstr "Список файлов"
+
+#: src/Template/Admin/Element/navigation.ctp:284
+msgid "list files"
+msgstr "список файлов"
+
+#: src/Template/Admin/Element/navigation.ctp:294
+msgid "By type"
+msgstr "По типам"
+
+#: src/Template/Admin/Element/navigation.ctp:298
+msgid "Files by type"
+msgstr "Файлы по типам"
+
+#: src/Template/Admin/Element/navigation.ctp:298
+msgid "files by type"
+msgstr "файлы по типам"
+
+#: src/Template/Admin/Element/navigation.ctp:311
+msgid "documents"
+msgstr "документы"
+
+#: src/Template/Admin/Element/navigation.ctp:324
+msgid "images"
+msgstr "изображения"
+
+#: src/Template/Admin/Events/add.ctp:60 src/Template/Admin/Events/edit.ctp:65
+msgid "Apply"
+msgstr ""
+
+#: src/Template/Admin/Events/add.ctp:61 src/Template/Admin/Events/edit.ctp:66
+msgid "Cancel"
+msgstr ""
+
+#: src/Template/Admin/Events/add.ctp:64 src/Template/Admin/Events/edit.ctp:69
+#, fuzzy
+msgid "Su"
 msgstr "url адрес"
 
-#: /src/Template/Admin/Banks/add.ctp:94 /src/Template/Admin/Banks/edit.ctp:95
-#: /src/Template/Admin/Organizations/edit.ctp:91
-msgid "Website"
-msgstr "Веб-сайт"
+#: src/Template/Admin/Events/add.ctp:65 src/Template/Admin/Events/edit.ctp:70
+#, fuzzy
+msgid "Mo"
+msgstr "Режим"
 
-#: /src/Template/Admin/Banks/add.ctp:98 /src/Template/Admin/Banks/edit.ctp:99
-msgid "Head Address"
-msgstr "Головной адрес"
+#: src/Template/Admin/Events/add.ctp:66 src/Template/Admin/Events/edit.ctp:71
+msgid "Tu"
+msgstr ""
 
-#: /src/Template/Admin/Banks/add.ctp:113 /src/Template/Admin/Banks/edit.ctp:114
-msgid "License Number"
-msgstr "Номер лицензии"
+#: src/Template/Admin/Events/add.ctp:67 src/Template/Admin/Events/edit.ctp:72
+msgid "We"
+msgstr ""
 
-#: /src/Template/Admin/Banks/add.ctp:121 /src/Template/Admin/Banks/edit.ctp:122
-msgid "Date Extradition"
-msgstr "Дата выдачи"
+#: src/Template/Admin/Events/add.ctp:68 src/Template/Admin/Events/edit.ctp:73
+msgid "Th"
+msgstr ""
 
-#: /src/Template/Admin/Banks/add.ctp:134 /src/Template/Admin/Banks/edit.ctp:135
-msgid "License URL"
-msgstr "URL лицензии"
+#: src/Template/Admin/Events/add.ctp:69 src/Template/Admin/Events/edit.ctp:74
+msgid "Fr"
+msgstr ""
 
-#: /src/Template/Admin/Banks/add.ctp:159 /src/Template/Admin/Banks/edit.ctp:171
-#: /src/Template/Admin/Organizations/edit.ctp:115
-msgid "Logo"
-msgstr "Логотип"
+#: src/Template/Admin/Events/add.ctp:70 src/Template/Admin/Events/edit.ctp:75
+#, fuzzy
+msgid "Sa"
+msgstr "Продать"
 
-#: /src/Template/Admin/Banks/add.ctp:178 /src/Template/Admin/Banks/edit.ctp:190
-msgid "Exchange Rates"
-msgstr "Обменные курсы"
+#: src/Template/Admin/Events/add.ctp:73 src/Template/Admin/Events/edit.ctp:78
+msgid "January"
+msgstr ""
 
-#: /src/Template/Admin/Banks/add.ctp:211 /src/View/Helper/BanksHelper.php:39
-msgid "Phone number"
+#: src/Template/Admin/Events/add.ctp:74 src/Template/Admin/Events/edit.ctp:79
+msgid "February"
+msgstr ""
+
+#: src/Template/Admin/Events/add.ctp:75 src/Template/Admin/Events/edit.ctp:80
+msgid "March"
+msgstr ""
+
+#: src/Template/Admin/Events/add.ctp:76 src/Template/Admin/Events/edit.ctp:81
+msgid "April"
+msgstr ""
+
+#: src/Template/Admin/Events/add.ctp:77 src/Template/Admin/Events/edit.ctp:82
+#, fuzzy
+msgid "May"
+msgstr "Ссылка, которую вы нажали не существует ли "
+
+#: src/Template/Admin/Events/add.ctp:78 src/Template/Admin/Events/edit.ctp:83
+msgid "June"
+msgstr ""
+
+#: src/Template/Admin/Events/add.ctp:79 src/Template/Admin/Events/edit.ctp:84
+msgid "July"
+msgstr ""
+
+#: src/Template/Admin/Events/add.ctp:80 src/Template/Admin/Events/edit.ctp:85
+msgid "August"
+msgstr ""
+
+#: src/Template/Admin/Events/add.ctp:81 src/Template/Admin/Events/edit.ctp:86
+msgid "September"
+msgstr ""
+
+#: src/Template/Admin/Events/add.ctp:82 src/Template/Admin/Events/edit.ctp:87
+msgid "October"
+msgstr ""
+
+#: src/Template/Admin/Events/add.ctp:83 src/Template/Admin/Events/edit.ctp:88
+#, fuzzy
+msgid "November"
 msgstr "Номер телефона"
 
-#: /src/Template/Admin/Banks/add.ctp:230 /src/Template/Admin/Banks/edit.ctp:232
-msgid "News List System Page"
-msgstr "Системная страница списка новостей"
+#: src/Template/Admin/Events/add.ctp:84 src/Template/Admin/Events/edit.ctp:89
+msgid "December"
+msgstr ""
 
-#: /src/Template/Admin/Banks/add.ctp:261 /src/Template/Admin/Banks/edit.ctp:263
-msgid "Exchange Rates System Page"
-msgstr "Системная страница обменных курсов"
+#: src/Template/Admin/Events/add.ctp:131 src/Template/Admin/Events/edit.ctp:163
+#, fuzzy
+msgid "Status"
+msgstr "Статус"
 
-#: /src/Template/Admin/Banks/edit.ctp:159
-msgid "Are you sure you want to delete the bank?"
+#: src/Template/Admin/Events/add.ctp:140 src/Template/Admin/Events/edit.ctp:172
+msgid "Date beginning"
+msgstr ""
+
+#: src/Template/Admin/Events/add.ctp:150 src/Template/Admin/Events/add.ctp:159
+#: src/Template/Admin/Events/edit.ctp:183
+#: src/Template/Admin/Events/edit.ctp:192
+#, fuzzy
+msgid "Location"
+msgstr "Расположение:"
+
+#: src/Template/Admin/Events/add.ctp:156 src/Template/Admin/Events/edit.ctp:189
+msgid "Coordinates"
+msgstr ""
+
+#: src/Template/Admin/Events/edit.ctp:116
+#, fuzzy
+msgid "Event Results"
+msgstr "Результаты"
+
+#: src/Template/Admin/Events/edit.ctp:123
+msgid "Present from summer cottages"
+msgstr ""
+
+#: src/Template/Admin/Events/edit.ctp:150
+#, fuzzy
+msgid "Are you sure you want to delete the event?"
 msgstr "Вы уверены, что хотите удалить банк?"
 
-#: /src/Template/Admin/Banks/edit.ctp:160
-#: /src/Template/Admin/CreditCategories/add.ctp:97
-#: /src/Template/Admin/CreditCategories/edit.ctp:98
-#: /src/Template/Admin/News/edit.ctp:146
+#: src/Template/Admin/Events/edit.ctp:151 src/Template/Admin/People/edit.ctp:58
+#: src/Template/Admin/Plots/edit.ctp:89
 msgid ""
 "Deletion eliminates the possibility of data recovery, including related data."
 msgstr ""
 "Удаление исключает возможность восстановления данных, в том числе связанных "
 "данных."
 
-#: /src/Template/Admin/Banks/index.ctp:48
-#: /src/Template/Admin/CreditCategories/index.ctp:49
-#: /src/Template/Admin/SystemicPages/index.ctp:48
-msgid "ID"
-msgstr "ID"
-
-#: /src/Template/Admin/Banks/index.ctp:50
-msgid "Parsing ER"
-msgstr "Парсинг КВ"
-
-#: /src/Template/Admin/CreditCategories/add.ctp:2
-#: /src/Template/Admin/Element/navigation.ctp:576
-msgid "Create credit category"
-msgstr "Создать категорию кредитов"
-
-#: /src/Template/Admin/CreditCategories/add.ctp:6
-#: /src/Template/Admin/CreditCategories/edit.ctp:7
-#: /src/Template/Admin/CreditCategories/index.ctp:6
-#: /src/Template/Admin/Element/navigation.ctp:544
-#: /src/Template/Admin/Element/navigation.ctp:548
-msgid "Credits"
-msgstr "Кредиты"
-
-#: /src/Template/Admin/CreditCategories/add.ctp:7
-#: /src/Template/Admin/CreditCategories/edit.ctp:8
-#: /src/Template/Admin/CreditCategories/index.ctp:7
-#: /src/Template/Admin/Element/navigation.ctp:123
-#: /src/Template/Admin/Element/navigation.ctp:216
-#: /src/Template/Admin/Element/navigation.ctp:558
-#: /src/Template/Admin/NewsCategories/add.ctp:7
-#: /src/Template/Admin/NewsCategories/edit.ctp:7
-#: /src/Template/Admin/NewsCategories/index.ctp:7
-#: /src/Template/Admin/PostCategories/add.ctp:7
-#: /src/Template/Admin/PostCategories/edit.ctp:7
-#: /src/Template/Admin/PostCategories/index.ctp:7
-msgid "Categories"
-msgstr "Категории"
-
-#: /src/Template/Admin/CreditCategories/add.ctp:66
-#: /src/Template/Admin/CreditCategories/edit.ctp:67
-msgid "Name of the credit category"
-msgstr "Название кредитной категории"
-
-#: /src/Template/Admin/CreditCategories/add.ctp:96
-#: /src/Template/Admin/CreditCategories/edit.ctp:97
-msgid "Are you sure you want to delete the credit category?"
-msgstr "Вы уверены, что хотите удалить категорию кредитов?"
-
-#: /src/Template/Admin/CreditCategories/index.ctp:2
-#: /src/Template/Admin/Element/navigation.ctp:562
-msgid "Credit categories"
-msgstr "Категории кредитов"
-
-#: /src/Template/Admin/Element/breadcrumbs.ctp:3
-#: /src/Template/Admin/Element/breadcrumbs.ctp:5
-#: /src/Template/Admin/Element/navigation.ctp:25
-#: /src/Template/Admin/Element/navigation.ctp:29
-#: /src/Template/Admin/SystemicPages/dashboard.ctp:2
-msgid "Dashboard"
-msgstr "Консоль"
-
-#: /src/Template/Admin/Element/footer.ctp:3
-msgid "Prodengi.uz"
-msgstr "ProДеньги"
-
-#: /src/Template/Admin/Element/meta_tags.ctp:5
-msgid "Meta Tags && Open Graph"
-msgstr "Мета теги && Open Graph"
-
-#: /src/Template/Admin/Element/navigation.ctp:39
-msgid "BER Today"
-msgstr "БКВ Сегодня"
-
-#: /src/Template/Admin/Element/navigation.ctp:56
-#: /src/Template/Admin/Element/navigation.ctp:63
-msgid "News parsing"
-msgstr "Новости (парсинг)"
-
-#: /src/Template/Admin/Element/navigation.ctp:70
-msgid "Publications and files"
-msgstr "Публикации и файлы"
-
-#: /src/Template/Admin/Element/navigation.ctp:79
-#: /src/Template/Admin/Element/navigation.ctp:83
-#: /src/Template/Admin/News/add.ctp:6 /src/Template/Admin/News/edit.ctp:6
-#: /src/Template/Admin/News/index.ctp:2 /src/Template/Admin/News/index.ctp:6
-#: /src/Template/Admin/News/index_model.ctp:9
-#: /src/Template/Admin/News/index_parsing.ctp:7
-#: /src/Template/Admin/NewsCategories/add.ctp:6
-#: /src/Template/Admin/NewsCategories/edit.ctp:6
-#: /src/Template/Admin/NewsCategories/index.ctp:6
-#: /src/Template/Cell/Admin/Navigation/banks.ctp:33
-#: /src/Template/Cell/Admin/Navigation/organizations.ctp:33
-msgid "News"
-msgstr "Новости"
-
-#: /src/Template/Admin/Element/navigation.ctp:83
-msgid "news"
-msgstr "новости"
-
-#: /src/Template/Admin/Element/navigation.ctp:97
-#: /src/Template/Admin/News/add.ctp:2
-msgid "Create news"
-msgstr "Создать новость"
-
-#: /src/Template/Admin/Element/navigation.ctp:97
-msgid "create news"
-msgstr "создать новость"
-
-#: /src/Template/Admin/Element/navigation.ctp:107
-#: /src/Template/Admin/Element/navigation.ctp:151
-#: /src/Template/Admin/Element/navigation.ctp:200
-#: /src/Template/Admin/Element/navigation.ctp:244
-#: /src/Template/Admin/Element/navigation.ctp:307
-#: /src/Template/Admin/Element/navigation.ctp:351
-#: /src/Template/Admin/Element/navigation.ctp:400
-#: /src/Template/Admin/Element/navigation.ctp:497
-#: /src/Template/Admin/Element/navigation.ctp:586
-msgid "List"
-msgstr "Список"
-
-#: /src/Template/Admin/Element/navigation.ctp:111
-msgid "List news"
-msgstr "Список новостей"
-
-#: /src/Template/Admin/Element/navigation.ctp:111
-msgid "list news"
-msgstr "список новостей"
-
-#: /src/Template/Admin/Element/navigation.ctp:127
-#: /src/Template/Admin/NewsCategories/index.ctp:2
-msgid "News categories"
-msgstr "Категории новостей"
-
-#: /src/Template/Admin/Element/navigation.ctp:127
-msgid "news categories"
-msgstr "категории новостей"
-
-#: /src/Template/Admin/Element/navigation.ctp:141
-#: /src/Template/Admin/NewsCategories/add.ctp:2
-msgid "Create news category"
-msgstr "Создать категорию новостей"
-
-#: /src/Template/Admin/Element/navigation.ctp:141
-msgid "create news category"
-msgstr "создать категорию новостей"
-
-#: /src/Template/Admin/Element/navigation.ctp:155
-msgid "List news categories"
-msgstr "Список новостных категорий"
-
-#: /src/Template/Admin/Element/navigation.ctp:155
-msgid "list news categories"
-msgstr "Список новостей категорий"
-
-#: /src/Template/Admin/Element/navigation.ctp:176
-msgid "posts"
-msgstr "статьи"
-
-#: /src/Template/Admin/Element/navigation.ctp:190
-#: /src/Template/Admin/Posts/add.ctp:2
-msgid "Create post"
-msgstr "Создать статью"
-
-#: /src/Template/Admin/Element/navigation.ctp:190
-msgid "create post"
-msgstr "создать статью"
-
-#: /src/Template/Admin/Element/navigation.ctp:204
-msgid "List posts"
-msgstr "Список статей"
-
-#: /src/Template/Admin/Element/navigation.ctp:204
-msgid "list posts"
-msgstr "список статей"
-
-#: /src/Template/Admin/Element/navigation.ctp:220
-msgid "Post categories"
-msgstr "Категории статей"
-
-#: /src/Template/Admin/Element/navigation.ctp:220
-msgid "post categories"
-msgstr "категории статей"
-
-#: /src/Template/Admin/Element/navigation.ctp:234
-#: /src/Template/Admin/PostCategories/add.ctp:2
-msgid "Create post category"
-msgstr "Создать категорию статей"
-
-#: /src/Template/Admin/Element/navigation.ctp:234
-msgid "create post category"
-msgstr "создать категорию статей"
-
-#: /src/Template/Admin/Element/navigation.ctp:248
-msgid "List post categories"
-msgstr "Список категорий статей"
-
-#: /src/Template/Admin/Element/navigation.ctp:248
-msgid "list post categories"
-msgstr "список категорий статей"
-
-#: /src/Template/Admin/Element/navigation.ctp:265
-#: /src/Template/Admin/Element/navigation.ctp:269
-msgid "Pages"
-msgstr "Страницы"
-
-#: /src/Template/Admin/Element/navigation.ctp:269
-msgid "pages"
-msgstr "страницы"
-
-#: /src/Template/Admin/Element/navigation.ctp:279
-msgid "Dynamic"
-msgstr "Динамические"
-
-#: /src/Template/Admin/Element/navigation.ctp:283
-#: /src/Template/Admin/Pages/add.ctp:6 /src/Template/Admin/Pages/edit.ctp:6
-#: /src/Template/Admin/Pages/index.ctp:2 /src/Template/Admin/Pages/index.ctp:6
-msgid "Dynamic pages"
-msgstr "Динамические страницы"
-
-#: /src/Template/Admin/Element/navigation.ctp:283
-msgid "dynamic pages"
-msgstr "динамические страницы"
-
-#: /src/Template/Admin/Element/navigation.ctp:297
-#: /src/Template/Admin/Pages/add.ctp:2
-msgid "Create dynamic page"
-msgstr "Создать динамическую страницу"
-
-#: /src/Template/Admin/Element/navigation.ctp:297
-msgid "create dynamic page"
-msgstr "создать динамическую страницу"
-
-#: /src/Template/Admin/Element/navigation.ctp:311
-msgid "List dynamic pages"
-msgstr "Список динамических страниц"
-
-#: /src/Template/Admin/Element/navigation.ctp:311
-msgid "list dynamic pages"
-msgstr "список динамических страниц"
-
-#: /src/Template/Admin/Element/navigation.ctp:323
-msgid "Systemic"
-msgstr "Системные"
-
-#: /src/Template/Admin/Element/navigation.ctp:327
-#: /src/Template/Admin/SystemicPages/add.ctp:6
-#: /src/Template/Admin/SystemicPages/edit.ctp:6
-#: /src/Template/Admin/SystemicPages/index.ctp:2
-#: /src/Template/Admin/SystemicPages/index.ctp:6
-msgid "Systemic pages"
-msgstr "Системные страницы"
-
-#: /src/Template/Admin/Element/navigation.ctp:327
-msgid "systemic pages"
-msgstr "Системные страницы"
-
-#: /src/Template/Admin/Element/navigation.ctp:341
-#: /src/Template/Admin/SystemicPages/add.ctp:2
-msgid "Create systemic page"
-msgstr "Создать системную страницу"
-
-#: /src/Template/Admin/Element/navigation.ctp:341
-msgid "create systemic page"
-msgstr "создать системную страницу"
-
-#: /src/Template/Admin/Element/navigation.ctp:355
-msgid "List systemic pages"
-msgstr "Список системных страниц"
-
-#: /src/Template/Admin/Element/navigation.ctp:355
-msgid "list systemic pages"
-msgstr "список системных страниц"
-
-#: /src/Template/Admin/Element/navigation.ctp:372
-#: /src/Template/Admin/Element/navigation.ctp:376
-#: /src/Template/Admin/Files/add.ctp:6
-#: /src/Template/Admin/Files/documents.ctp:6
-#: /src/Template/Admin/Files/images.ctp:6 /src/Template/Admin/Files/index.ctp:2
-#: /src/Template/Admin/Files/index.ctp:6
-msgid "Files"
-msgstr "Файлы"
-
-#: /src/Template/Admin/Element/navigation.ctp:376
-msgid "files"
-msgstr "файлы"
-
-#: /src/Template/Admin/Element/navigation.ctp:390
-#: /src/Template/Admin/Files/add.ctp:2 /src/Template/Admin/Files/add.ctp:7
-msgid "Create file(s)"
-msgstr "Создать файл(ы)"
-
-#: /src/Template/Admin/Element/navigation.ctp:390
-msgid "create file"
-msgstr "создать файл"
-
-#: /src/Template/Admin/Element/navigation.ctp:404
-msgid "List files"
-msgstr "Список файлов"
-
-#: /src/Template/Admin/Element/navigation.ctp:404
-msgid "list files"
-msgstr "список файлов"
-
-#: /src/Template/Admin/Element/navigation.ctp:414
-msgid "By type"
-msgstr "По типам"
-
-#: /src/Template/Admin/Element/navigation.ctp:418
-msgid "Files by type"
-msgstr "Файлы по типам"
-
-#: /src/Template/Admin/Element/navigation.ctp:418
-msgid "files by type"
-msgstr "файлы по типам"
-
-#: /src/Template/Admin/Element/navigation.ctp:427
-#: /src/Template/Admin/Element/navigation.ctp:431
-#: /src/Template/Admin/Files/documents.ctp:2
-#: /src/Template/Admin/Files/documents.ctp:7
-msgid "Documents"
-msgstr "Документы"
-
-#: /src/Template/Admin/Element/navigation.ctp:431
-msgid "documents"
-msgstr "документы"
-
-#: /src/Template/Admin/Element/navigation.ctp:440
-#: /src/Template/Admin/Element/navigation.ctp:444
-#: /src/Template/Admin/Files/images.ctp:2
-#: /src/Template/Admin/Files/images.ctp:7
-msgid "Images"
-msgstr "Изображения"
-
-#: /src/Template/Admin/Element/navigation.ctp:444
-msgid "images"
-msgstr "изображения"
-
-#: /src/Template/Admin/Element/navigation.ctp:459
-msgid "The organization"
-msgstr "Организации"
-
-#: /src/Template/Admin/Element/navigation.ctp:472
-msgid "banks"
-msgstr "банки"
-
-#: /src/Template/Admin/Element/navigation.ctp:486
-msgid "create bank"
-msgstr "создать банк"
-
-#: /src/Template/Admin/Element/navigation.ctp:501
-msgid "List banks"
-msgstr "Список банков"
-
-#: /src/Template/Admin/Element/navigation.ctp:501
-msgid "list banks"
-msgstr "список банков"
-
-#: /src/Template/Admin/Element/navigation.ctp:512
-msgid "All"
-msgstr "Все"
-
-#: /src/Template/Admin/Element/navigation.ctp:516
-msgid "All banks"
-msgstr "Все банки"
-
-#: /src/Template/Admin/Element/navigation.ctp:516
-msgid "all banks"
-msgstr "все банки"
-
-#: /src/Template/Admin/Element/navigation.ctp:535
-msgid "Products"
-msgstr "Продукты"
-
-#: /src/Template/Admin/Element/navigation.ctp:548
-msgid "credits"
-msgstr "кредиты"
-
-#: /src/Template/Admin/Element/navigation.ctp:562
-msgid "credit categories"
-msgstr "кредитные категории"
-
-#: /src/Template/Admin/Element/navigation.ctp:576
-msgid "create credit category"
-msgstr "создать категорию кредитов"
-
-#: /src/Template/Admin/Element/navigation.ctp:590
-msgid "List credit categories"
-msgstr "Список кредитных категорий"
-
-#: /src/Template/Admin/Element/navigation.ctp:590
-msgid "list credit categories"
-msgstr "список категорий кредитов"
-
-#: /src/Template/Admin/Element/Flash/error.ctp:10
-msgid "Error!"
-msgstr "Ошибка!"
-
-#: /src/Template/Admin/Element/Flash/success.ctp:11
-msgid "Well Done!"
-msgstr "Отлично сработано!"
-
-#: /src/Template/Admin/Files/add.ctp:30
-msgid "Drop files here or click to upload"
-msgstr "Перетащите файлы в эту область или нажмите на неё для загрузки"
-
-#: /src/Template/Admin/Files/documents.ctp:54
-#: /src/Template/Admin/Files/index.ctp:53
-msgid "Name"
-msgstr "Название"
-
-#: /src/Template/Admin/Files/documents.ctp:55
-#: /src/Template/Admin/Files/index.ctp:54
-msgid "Size"
-msgstr "Размер"
-
-#: /src/Template/Admin/Files/documents.ctp:56
-#: /src/Template/Admin/Files/images.ctp:133
-#: /src/Template/Admin/Files/index.ctp:55
-msgid "Mime Type"
-msgstr "Тип файла"
-
-#: /src/Template/Admin/Files/documents.ctp:79
-#: /src/Template/Admin/Files/index.ctp:78
-msgid "Are you sure you want to delete the file?"
-msgstr "Вы уверены, что хотите удалить файл?"
-
-#: /src/Template/Admin/Files/images.ctp:119
-msgid "Detail Image"
-msgstr "Детали изображения"
-
-#: /src/Template/Admin/Files/images.ctp:131
-msgid "Filename"
-msgstr "Название"
-
-#: /src/Template/Admin/Files/images.ctp:135
-msgid "Date Created"
-msgstr "Дата создания"
-
-#: /src/Template/Admin/Files/images.ctp:137
-msgid "Filesize"
-msgstr "Размер файла"
-
-#: /src/Template/Admin/Files/images.ctp:145
-msgid "Copy URL"
-msgstr "Копировать URL"
-
-#: /src/Template/Admin/Files/images.ctp:163
-msgid "Are you sure you want to delete the image?"
-msgstr "Вы уверены, что хотите удалить изображение?"
-
-#: /src/Template/Admin/Layout/default.ctp:92
-#: /src/Template/Admin/Layout/default.ctp:93
-#: /src/Template/Admin/Layout/default.ctp:109
-#: /src/Template/Admin/Layout/default.ctp:110
+#: src/Template/Admin/Events/index.ctp:49
+msgid "Date Beginning"
+msgstr ""
+
+#: src/Template/Admin/Events/index.ctp:50
+#, fuzzy
+msgid "Completed"
+msgstr "Завершено"
+
+#: src/Template/Admin/Layout/default.ctp:94
+#: src/Template/Admin/Layout/default.ctp:98
+#, fuzzy
+msgid "Control panel"
+msgstr "Панель управления"
+
+#: src/Template/Admin/Layout/default.ctp:114
+#: src/Template/Admin/Layout/default.ctp:115
 msgid "Admin Panel"
 msgstr "Админ. панель"
 
-#: /src/Template/Admin/Layout/default.ctp:163
-#: /src/Template/Admin/Users/settings.ctp:2
-#: /src/Template/Admin/Users/settings.ctp:6
-msgid "Settings"
-msgstr "Настройки"
-
-#: /src/Template/Admin/Layout/default.ctp:167
+#: src/Template/Admin/Layout/default.ctp:172
 msgid "Fullscreen"
 msgstr "На весь экран"
 
-#: /src/Template/Admin/Layout/default.ctp:171
+#: src/Template/Admin/Layout/default.ctp:176
 msgid "Print"
 msgstr "Печать"
 
-#: /src/Template/Admin/Layout/default.ctp:176
+#: src/Template/Admin/Layout/default.ctp:181
 msgid "Logout"
 msgstr "Выйти"
 
-#: /src/Template/Admin/Layout/default.ctp:209
+#: src/Template/Admin/Layout/default.ctp:214
 msgid "Home"
 msgstr "Главная"
 
-#: /src/Template/Admin/Layout/default.ctp:246
+#: src/Template/Admin/Layout/default.ctp:251
 msgid "Are you sure?"
 msgstr "Вы уверены?"
 
-#: /src/Template/Admin/Layout/default.ctp:256
+#: src/Template/Admin/Layout/default.ctp:261
 msgid "Critical action"
 msgstr "Критическое действие"
 
-#: /src/Template/Admin/News/add.ctp:145 /src/Template/Admin/News/edit.ctp:158
-msgid "Options"
-msgstr "Опции"
+#: src/Template/Admin/Pages/add.ctp:2
+#, fuzzy
+msgid "Create New Dynamic Page"
+msgstr "Создать новую динамическую страницу"
 
-#: /src/Template/Admin/News/add.ctp:157 /src/Template/Admin/News/edit.ctp:174
-msgid "Select the category"
-msgstr "Выбрать категорию"
+#: src/Template/Admin/Pages/add.ctp:6 src/Template/Admin/Pages/index.ctp:2
+#, fuzzy
+msgid "Dynamic Pages"
+msgstr "Динамические страницы"
 
-#: /src/Template/Admin/News/add.ctp:173 /src/Template/Admin/News/edit.ctp:190
-msgid "Select the model"
-msgstr "Выбрать модель"
+#: src/Template/Admin/Pages/add.ctp:68 src/Template/Admin/Pages/edit.ctp:68
+msgid "Slug"
+msgstr "url адрес"
 
-#: /src/Template/Admin/News/add.ctp:179 /src/Template/Admin/News/edit.ctp:196
-#: /src/Template/Admin/Organizations/edit.ctp:7
-msgid "Organizations"
-msgstr "Организации"
-
-#: /src/Template/Admin/News/add.ctp:187 /src/Template/Admin/News/edit.ctp:204
-msgid "URI"
-msgstr "URI"
-
-#: /src/Template/Admin/News/edit.ctp:145
-msgid "Are you sure you want to delete the news?"
-msgstr "Вы уверены, что хотите удалить новость?"
-
-#: /src/Template/Admin/News/edit.ctp:165
-msgid "Important"
-msgstr "Важно!"
-
-#: /src/Template/Admin/News/edit.ctp:168
-msgid "Designed"
-msgstr "Проектная"
-
-#: /src/Template/Admin/News/index_model.ctp:2
-#: /src/Template/Cell/Admin/Navigation/banks.ctp:37
-msgid "«{0}» news"
-msgstr "«{0}» новости"
-
-#: /src/Template/Admin/News/index_parsing.ctp:2
-msgid "Parsing news"
-msgstr "Новости (парсинг)"
-
-#: /src/Template/Admin/News/index_parsing.ctp:8
-msgid "Parsing"
-msgstr "Полученные парсингом"
-
-#: /src/Template/Admin/News/index_parsing.ctp:46
-msgid "Model"
-msgstr "Модель"
-
-#: /src/Template/Admin/News/ajax/source_items.ctp:3
-msgid "Select the items"
-msgstr "Выбрать объекты"
-
-#: /src/Template/Admin/NewsCategories/index.ctp:46
-#: /src/Template/Admin/PostCategories/index.ctp:46
-msgid "Quantity"
-msgstr "Количество"
-
-#: /src/Template/Admin/NewsCategories/index.ctp:47
-#: /src/Template/Admin/PostCategories/index.ctp:47
-#: /src/Template/Admin/SystemicPages/index.ctp:50
-msgid "Date Modified"
-msgstr "Дата изменения"
-
-#: /src/Template/Admin/Organizations/edit.ctp:82
-msgid "Head address"
-msgstr "Головной адрес"
-
-#: /src/Template/Admin/Organizations/edit.ctp:140
-msgid "News list system page"
-msgstr "Системная страница списка новостей"
-
-#: /src/Template/Admin/Pages/edit.ctp:94
+#: src/Template/Admin/Pages/edit.ctp:94
 msgid "Are you sure you want to delete the page?"
 msgstr "Вы уверены, что хотите удалить страницу?"
 
-#: /src/Template/Admin/Pages/index.ctp:50
-msgid "Date Published"
-msgstr "Дата публикации"
+#: src/Template/Admin/Pages/index.ctp:50
+msgid "Mode"
+msgstr "Режим"
 
-#: /src/Template/Admin/PostCategories/edit.ctp:73
-msgid "Are you sure you want to delete the post category?"
-msgstr "Вы уверены, что хотите удалить категорию публикаций?"
+#: src/Template/Admin/People/add.ctp:26 src/Template/Admin/People/edit.ctp:27
+#: src/Template/Admin/People/ajax/add.ctp:34
+#, fuzzy
+msgid "Last name"
+msgstr "Фамилия"
 
-#: /src/Template/Admin/PostCategories/edit.ctp:74
-msgid ""
-"Deletion eliminates the possibility of data recovery. Posts will not be "
-"deleted!"
+#: src/Template/Admin/People/add.ctp:29 src/Template/Admin/People/edit.ctp:30
+#: src/Template/Admin/People/ajax/add.ctp:37
+#, fuzzy
+msgid "First name"
+msgstr "Имя"
+
+#: src/Template/Admin/People/add.ctp:32 src/Template/Admin/People/edit.ctp:33
+#: src/Template/Admin/People/ajax/add.ctp:40
+#, fuzzy
+msgid "Middle name"
+msgstr "Отчество"
+
+#: src/Template/Admin/People/add.ctp:35 src/Template/Admin/People/edit.ctp:36
+#: src/Template/Admin/People/ajax/add.ctp:43
+#, fuzzy
+msgid "Cell number"
+msgstr "Номер телефона"
+
+#: src/Template/Admin/People/edit.ctp:57
+#, fuzzy
+msgid "Are you sure you want to delete the person?"
+msgstr "Вы уверены, что хотите удалить страницу?"
+
+#: src/Template/Admin/People/index.ctp:49 src/Template/Admin/Plots/index.ctp:50
+#, fuzzy
+msgid "Full name"
+msgstr "Полное имя"
+
+#: src/Template/Admin/People/index.ctp:50
+msgid "Quantity"
+msgstr "Количество"
+
+#: src/Template/Admin/People/index.ctp:51 src/Template/Admin/Plots/index.ctp:51
+#, fuzzy
+msgid "Date modified"
+msgstr "Дата обновления"
+
+#: src/Template/Admin/Plots/add.ctp:47 src/Template/Admin/Plots/edit.ctp:48
+msgid "The number of the suburban area"
 msgstr ""
-"Удаление исключает возможность восстановления данных. Публикации не будут "
-"удалены!"
 
-#: /src/Template/Admin/PostCategories/index.ctp:2
-msgid "Post Categories"
-msgstr "Категории публикаций"
+#: src/Template/Admin/Plots/add.ctp:52 src/Template/Admin/Plots/edit.ctp:53
+msgid "Notes"
+msgstr ""
 
-#: /src/Template/Admin/Posts/add.ctp:105 /src/Template/Admin/Posts/edit.ctp:116
-msgid "Image Preview"
-msgstr "Preview"
+#: src/Template/Admin/Plots/add.ctp:60 src/Template/Admin/Plots/edit.ctp:61
+msgid "Choose the owner of a summer cottage"
+msgstr ""
 
-#: /src/Template/Admin/Posts/add.ctp:116 /src/Template/Admin/Posts/edit.ctp:136
-msgid "Category"
-msgstr "Категория"
+#: src/Template/Admin/Plots/edit.ctp:2
+msgid "Cottage plot №{0}"
+msgstr ""
 
-#: /src/Template/Admin/Posts/add.ctp:123 /src/Template/Admin/Posts/edit.ctp:143
-msgid "Select Category"
-msgstr "Выбрать категорию"
-
-#: /src/Template/Admin/Posts/edit.ctp:103
-msgid "Are you sure you want to delete the post?"
+#: src/Template/Admin/Plots/edit.ctp:88
+#, fuzzy
+msgid "Are you sure you want to delete the plot?"
 msgstr "Вы уверены, что хотите удалить публикацию?"
 
-#: /src/Template/Admin/SystemicPages/dashboard.ctp:39
-msgid "Bank News"
-msgstr "Новости банка"
+#: src/Template/Admin/Plots/index.ctp:49
+#, fuzzy
+msgid "Number"
+msgstr "Номер"
 
-#: /src/Template/Admin/SystemicPages/dashboard.ctp:39
-msgid "Last"
-msgstr "Последние"
+#~ msgid "Bank exchange rates today"
+#~ msgstr "Сегодняшние банковские курсы валют"
 
-#: /src/Template/Admin/SystemicPages/dashboard.ctp:48
-msgid "Bank"
-msgstr "Банк"
+#~ msgid "bank exchange rates today"
+#~ msgstr "банковские курсы валют сегодня"
 
-#: /src/Template/Admin/Users/settings.ctp:26
-msgid "Current Password"
-msgstr "Текущий пароль"
+#~ msgid "Select bank"
+#~ msgstr "Выбрать банк"
 
-#: /src/Template/Admin/Users/settings.ctp:30
-msgid "New Password"
-msgstr "Новый пароль"
+#~ msgid "Select currency"
+#~ msgstr "Выбрать валюту"
 
-#: /src/Template/Admin/Users/settings.ctp:34
-msgid "Confirm New Password"
-msgstr "Подтвердите новый пароль"
+#~ msgid "Buy"
+#~ msgstr "Купить"
 
-#: /src/Template/Cell/Admin/Navigation/banks.ctp:20
-#: /src/Template/Cell/Admin/Navigation/organizations.ctp:20
-msgid "Edit"
-msgstr "Изменить"
+#~ msgid "Without parsing exchange rates"
+#~ msgstr "Без парсинга курса валют"
 
-#: /src/Template/Cell/Admin/Navigation/banks.ctp:24
-msgid "Edit «{0}»"
-msgstr "Изменить «{0}»"
+#~ msgid "Banks"
+#~ msgstr "Банки"
 
-#: /src/Template/Cell/Admin/Navigation/banks.ctp:24
-msgid "edit «{0}»"
-msgstr "изменить «{0}»"
+#~ msgid "Posts"
+#~ msgstr "Публикации"
 
-#: /src/Template/Cell/Admin/Navigation/organizations.ctp:24
-msgid "Edit {0}"
-msgstr "Изменить {0}"
+#~ msgid "Source:"
+#~ msgstr "Источник:"
 
-#: /src/Template/Cell/Admin/Navigation/organizations.ctp:24
-msgid "edit {0}"
-msgstr "изменить {0}"
+#~ msgid "Date:"
+#~ msgstr "Дата:"
 
-#: /src/Template/Cell/Admin/Navigation/organizations.ctp:37
-msgid "{0} news"
-msgstr "{0} новости"
+#~ msgid "Are you sure you want to delete the post bank?"
+#~ msgstr "Вы уверены, что хотите удалить публикацию банка?"
 
-#: /src/View/Helper/MetaTagsHelper.php:74
-msgid "Title Tag"
-msgstr "Тег заголовка"
+#~ msgid "Post from «{0}»"
+#~ msgstr "Публикация от «{0}»"
 
-#: /src/View/Helper/MetaTagsHelper.php:107
-msgid "Meta Description"
-msgstr "Мета описание"
+#~ msgid "Publications extracted from the bank's website."
+#~ msgstr "Публикации взяты с официальных веб-сайтов банков."
 
-#: /src/View/Helper/MetaTagsHelper.php:139
-msgid "Open Graph Title"
-msgstr "Заголовок Open Graph"
+#~ msgid "Source"
+#~ msgstr "Источник"
 
-#: /src/View/Helper/MetaTagsHelper.php:172
-msgid "Open Graph Description"
-msgstr "Описание Open Graph"
+#~ msgid "Date Source"
+#~ msgstr "Дата"
 
-#: /src/View/Helper/PublishedHelper.php:32
-msgid "unpublish"
-msgstr "не опубликовано"
+#~ msgid "Name of the bank"
+#~ msgstr "Название банка"
 
-#: /src/View/Helper/PublishedHelper.php:33
-msgid "Are you sure you want to publish?"
-msgstr "Вы уверены, что хотите опубликовать?"
+#~ msgid "Website"
+#~ msgstr "Веб-сайт"
 
-#: /src/View/Helper/PublishedHelper.php:37
-msgid "publish"
-msgstr "опубликовано"
+#~ msgid "Head Address"
+#~ msgstr "Головной адрес"
 
-#: /src/View/Helper/PublishedHelper.php:38
-msgid "Are you sure you want to be removed from publication?"
-msgstr "Вы уверены, что хотите отменить публикацию?"
+#~ msgid "Date Extradition"
+#~ msgstr "Дата выдачи"
+
+#~ msgid "License URL"
+#~ msgstr "URL лицензии"
+
+#~ msgid "Logo"
+#~ msgstr "Логотип"
+
+#~ msgid "Exchange Rates"
+#~ msgstr "Обменные курсы"
+
+#~ msgid "News List System Page"
+#~ msgstr "Системная страница списка новостей"
+
+#~ msgid "Exchange Rates System Page"
+#~ msgstr "Системная страница обменных курсов"
+
+#~ msgid "Parsing ER"
+#~ msgstr "Парсинг КВ"
+
+#~ msgid "Create credit category"
+#~ msgstr "Создать категорию кредитов"
+
+#~ msgid "Credits"
+#~ msgstr "Кредиты"
+
+#~ msgid "Categories"
+#~ msgstr "Категории"
+
+#~ msgid "Name of the credit category"
+#~ msgstr "Название кредитной категории"
+
+#~ msgid "Are you sure you want to delete the credit category?"
+#~ msgstr "Вы уверены, что хотите удалить категорию кредитов?"
+
+#~ msgid "Credit categories"
+#~ msgstr "Категории кредитов"
+
+#~ msgid "Prodengi.uz"
+#~ msgstr "ProДеньги"
+
+#~ msgid "Meta Tags && Open Graph"
+#~ msgstr "Мета теги && Open Graph"
+
+#~ msgid "BER Today"
+#~ msgstr "БКВ Сегодня"
+
+#~ msgid "News parsing"
+#~ msgstr "Новости (парсинг)"
+
+#~ msgid "News"
+#~ msgstr "Новости"
+
+#~ msgid "news"
+#~ msgstr "новости"
+
+#~ msgid "News categories"
+#~ msgstr "Категории новостей"
+
+#~ msgid "news categories"
+#~ msgstr "категории новостей"
+
+#~ msgid "create news category"
+#~ msgstr "создать категорию новостей"
+
+#~ msgid "List news categories"
+#~ msgstr "Список новостных категорий"
+
+#~ msgid "list news categories"
+#~ msgstr "Список новостей категорий"
+
+#~ msgid "posts"
+#~ msgstr "статьи"
+
+#~ msgid "Post categories"
+#~ msgstr "Категории статей"
+
+#~ msgid "post categories"
+#~ msgstr "категории статей"
+
+#~ msgid "Create post category"
+#~ msgstr "Создать категорию статей"
+
+#~ msgid "create post category"
+#~ msgstr "создать категорию статей"
+
+#~ msgid "List post categories"
+#~ msgstr "Список категорий статей"
+
+#~ msgid "list post categories"
+#~ msgstr "список категорий статей"
+
+#~ msgid "Dynamic"
+#~ msgstr "Динамические"
+
+#~ msgid "dynamic pages"
+#~ msgstr "динамические страницы"
+
+#~ msgid "create dynamic page"
+#~ msgstr "создать динамическую страницу"
+
+#~ msgid "List dynamic pages"
+#~ msgstr "Список динамических страниц"
+
+#~ msgid "list dynamic pages"
+#~ msgstr "список динамических страниц"
+
+#~ msgid "The organization"
+#~ msgstr "Организации"
+
+#~ msgid "banks"
+#~ msgstr "банки"
+
+#~ msgid "create bank"
+#~ msgstr "создать банк"
+
+#~ msgid "List banks"
+#~ msgstr "Список банков"
+
+#~ msgid "list banks"
+#~ msgstr "список банков"
+
+#~ msgid "All"
+#~ msgstr "Все"
+
+#~ msgid "All banks"
+#~ msgstr "Все банки"
+
+#~ msgid "all banks"
+#~ msgstr "все банки"
+
+#~ msgid "Products"
+#~ msgstr "Продукты"
+
+#~ msgid "credits"
+#~ msgstr "кредиты"
+
+#~ msgid "credit categories"
+#~ msgstr "кредитные категории"
+
+#~ msgid "create credit category"
+#~ msgstr "создать категорию кредитов"
+
+#~ msgid "List credit categories"
+#~ msgstr "Список кредитных категорий"
+
+#~ msgid "list credit categories"
+#~ msgstr "список категорий кредитов"
+
+#~ msgid "Options"
+#~ msgstr "Опции"
+
+#~ msgid "Select the category"
+#~ msgstr "Выбрать категорию"
+
+#~ msgid "Select the model"
+#~ msgstr "Выбрать модель"
+
+#~ msgid "Organizations"
+#~ msgstr "Организации"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "Are you sure you want to delete the news?"
+#~ msgstr "Вы уверены, что хотите удалить новость?"
+
+#~ msgid "Important"
+#~ msgstr "Важно!"
+
+#~ msgid "Designed"
+#~ msgstr "Проектная"
+
+#~ msgid "«{0}» news"
+#~ msgstr "«{0}» новости"
+
+#~ msgid "Parsing news"
+#~ msgstr "Новости (парсинг)"
+
+#~ msgid "Parsing"
+#~ msgstr "Полученные парсингом"
+
+#~ msgid "Model"
+#~ msgstr "Модель"
+
+#~ msgid "Select the items"
+#~ msgstr "Выбрать объекты"
+
+#~ msgid "Head address"
+#~ msgstr "Головной адрес"
+
+#~ msgid "News list system page"
+#~ msgstr "Системная страница списка новостей"
+
+#~ msgid "Date Published"
+#~ msgstr "Дата публикации"
+
+#~ msgid "Are you sure you want to delete the post category?"
+#~ msgstr "Вы уверены, что хотите удалить категорию публикаций?"
+
+#~ msgid ""
+#~ "Deletion eliminates the possibility of data recovery. Posts will not be "
+#~ "deleted!"
+#~ msgstr ""
+#~ "Удаление исключает возможность восстановления данных. Публикации не будут "
+#~ "удалены!"
+
+#~ msgid "Post Categories"
+#~ msgstr "Категории публикаций"
+
+#~ msgid "Image Preview"
+#~ msgstr "Preview"
+
+#~ msgid "Category"
+#~ msgstr "Категория"
+
+#~ msgid "Select Category"
+#~ msgstr "Выбрать категорию"
+
+#~ msgid "Bank News"
+#~ msgstr "Новости банка"
+
+#~ msgid "Last"
+#~ msgstr "Последние"
+
+#~ msgid "Bank"
+#~ msgstr "Банк"
+
+#~ msgid "Edit"
+#~ msgstr "Изменить"
+
+#~ msgid "Edit «{0}»"
+#~ msgstr "Изменить «{0}»"
+
+#~ msgid "edit «{0}»"
+#~ msgstr "изменить «{0}»"
+
+#~ msgid "Edit {0}"
+#~ msgstr "Изменить {0}"
+
+#~ msgid "edit {0}"
+#~ msgstr "изменить {0}"
+
+#~ msgid "{0} news"
+#~ msgstr "{0} новости"
+
+#~ msgid "Title Tag"
+#~ msgstr "Тег заголовка"
+
+#~ msgid "Meta Description"
+#~ msgstr "Мета описание"
+
+#~ msgid "Open Graph Title"
+#~ msgstr "Заголовок Open Graph"
+
+#~ msgid "Open Graph Description"
+#~ msgstr "Описание Open Graph"
+
+#~ msgid "unpublish"
+#~ msgstr "не опубликовано"
+
+#~ msgid "Are you sure you want to publish?"
+#~ msgstr "Вы уверены, что хотите опубликовать?"
+
+#~ msgid "publish"
+#~ msgstr "опубликовано"
+
+#~ msgid "Are you sure you want to be removed from publication?"
+#~ msgstr "Вы уверены, что хотите отменить публикацию?"
 
 #, fuzzy
 #~ msgid "Add file(s)"

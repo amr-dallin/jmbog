@@ -9,6 +9,7 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property string $title
  * @property string $body
+ * @property string $result
  * @property \Cake\I18n\FrozenTime $date_beginning
  * @property string|null $coordinates
  * @property string|null $location
@@ -32,6 +33,7 @@ class Event extends Entity
     protected $_accessible = [
         'title' => true,
         'body' => true,
+        'result' => true,
         'date_beginning' => true,
         'coordinates' => true,
         'location' => true,

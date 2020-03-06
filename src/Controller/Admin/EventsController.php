@@ -56,13 +56,13 @@ class EventsController extends AppController
     public function edit($id = null)
     {
         $event = $this->Events->get($id, [
-            'contain' => ['Plots', 'MetaTags'],
+            'contain' => ['MetaTags', 'Plots'],
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $event = $this->Events->patchEntity(
                 $event,
                 $this->request->getData(),
-                ['associated' => ['MetaTags']]
+                ['associated' => ['MetaTags', 'Plots']]
             );
             if ($this->Events->save($event)) {
                 $this->Flash->success(__d('control_panel', 'The event has been saved.'));
@@ -71,7 +71,8 @@ class EventsController extends AppController
             }
             $this->Flash->error(__d('control_panel', 'The event could not be saved. Please, try again.'));
         }
-        $plots = $this->Events->Plots->find('list', ['limit' => 200]);
+
+        $plots = $this->Events->Plots->find('list');
         $this->set(compact('event', 'plots'));
     }
 

@@ -39,7 +39,7 @@ class EventsTable extends Table
         $this->belongsToMany('Plots', [
             'foreignKey' => 'event_id',
             'targetForeignKey' => 'plot_id',
-            'joinTable' => 'events_plots',
+            'joinTable' => 'events_plots'
         ]);
 
         $this->addBehavior('Timestamp', [
