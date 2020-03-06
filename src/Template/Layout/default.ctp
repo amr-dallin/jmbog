@@ -2,6 +2,11 @@
 <html lang="ru_UZ" prefix="http://ogp.me/ns#">
     <head>
         <?= $this->Html->charset() ?>
+        <?php
+        if (file_exists(CONFIG . 'metrics')) {
+            echo file_get_contents(CONFIG . 'metrics');
+        }
+        ?>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <?= $this->fetch('meta') ?>
