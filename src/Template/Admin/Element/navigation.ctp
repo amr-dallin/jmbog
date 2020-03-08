@@ -186,25 +186,69 @@
                 $this->Html->tag('i', '', ['class' => 'fal fa-lg fa-fw fa-file-alt']) .
                 $this->Html->tag(
                     'span',
-                    __d('control_panel', 'Pages'),
+                    __d('smart_admin', 'Pages'),
                     ['class' => 'nav-link-text']
                 ),
                 '#',
-                ['escape' => false, 'title' => __d('control_panel', 'Pages'), 'data-filter-tags' => __d('control_panel', 'pages')]
+                ['escape' => false, 'title' => __d('smart_admin', 'Pages'), 'data-filter-tags' => __d('smart_admin', 'pages')]
             );
             ?>
             <ul>
+                <li class="<?php if (isset($menu['pages']['dynamic'])) echo 'active open'; ?>">
+                    <?php
+                    echo $this->Html->link(
+                        $this->Html->tag('i', '', ['class' => 'fal fa-lg fa-fw fa-paper-plane']) .
+                        $this->Html->tag(
+                            'span',
+                            __d('smart_admin', 'Dynamic'),
+                            ['class' => 'nav-link-text']
+                        ),
+                        '#',
+                        ['escape' => false, 'title' => __d('smart_admin', 'Dynamic pages'), 'data-filter-tags' => __d('smart_admin', 'dynamic pages')]
+                    );
+                    ?>
+                    <ul>
+                        <li <?php if (isset($menu['pages']['dynamic'][0])) echo 'class="active"'; ?>>
+                            <?php
+                            echo $this->Html->link(
+                                $this->Html->tag('i', '', ['class' => 'fal fa-lg fa-fw fa-plus-circle']) .
+                                $this->Html->tag(
+                                    'span',
+                                    __d('smart_admin', 'Create'),
+                                    ['class' => 'nav-link-text']
+                                ),
+                                ['controller' => 'Pages', 'action' => 'add'],
+                                ['escape' => false, 'title' => __d('smart_admin', 'Create dynamic page'), 'data-filter-tags' => __d('smart_admin', 'create dynamic page')]
+                            );
+                            ?>
+                        </li>
+                        <li <?php if (isset($menu['pages']['dynamic'][1])) echo 'class="active"'; ?>>
+                            <?php
+                            echo $this->Html->link(
+                                $this->Html->tag('i', '', ['class' => 'fal fa-lg fa-fw fa-table']) .
+                                $this->Html->tag(
+                                    'span',
+                                    __d('smart_admin', 'List'),
+                                    ['class' => 'nav-link-text']
+                                ),
+                                ['controller' => 'Pages', 'action' => 'index'],
+                                ['escape' => false, 'title' => __d('smart_admin', 'List dynamic pages'), 'data-filter-tags' => __d('smart_admin', 'list dynamic pages')]
+                            );
+                            ?>
+                        </li>
+                    </ul>
+                </li>
                 <li class="<?php if (isset($menu['pages']['systemic'])) echo 'active open'; ?>">
                     <?php
                     echo $this->Html->link(
                         $this->Html->tag('i', '', ['class' => 'fal fa-lg fa-fw fa-paperclip']) .
                         $this->Html->tag(
                             'span',
-                            __d('control_panel', 'Systemic'),
+                            __d('smart_admin', 'Systemic'),
                             ['class' => 'nav-link-text']
                         ),
                         '#',
-                        ['escape' => false, 'title' => __d('control_panel', 'Systemic pages'), 'data-filter-tags' => __d('control_panel', 'systemic pages')]
+                        ['escape' => false, 'title' => __d('smart_admin', 'Systemic pages'), 'data-filter-tags' => __d('smart_admin', 'systemic pages')]
                     );
                     ?>
                     <ul>
@@ -214,11 +258,11 @@
                                 $this->Html->tag('i', '', ['class' => 'fal fa-lg fa-fw fa-plus-circle']) .
                                 $this->Html->tag(
                                     'span',
-                                    __d('control_panel', 'Create'),
+                                    __d('smart_admin', 'Create'),
                                     ['class' => 'nav-link-text']
                                 ),
                                 ['controller' => 'SystemicPages', 'action' => 'add'],
-                                ['escape' => false, 'title' => __d('control_panel', 'Create systemic page'), 'data-filter-tags' => __d('control_panel', 'create systemic page')]
+                                ['escape' => false, 'title' => __d('smart_admin', 'Create systemic page'), 'data-filter-tags' => __d('smart_admin', 'create systemic page')]
                             );
                             ?>
                         </li>
@@ -228,11 +272,11 @@
                                 $this->Html->tag('i', '', ['class' => 'fal fa-lg fa-fw fa-table']) .
                                 $this->Html->tag(
                                     'span',
-                                    __d('control_panel', 'List'),
+                                    __d('smart_admin', 'List'),
                                     ['class' => 'nav-link-text']
                                 ),
                                 ['controller' => 'SystemicPages', 'action' => 'index'],
-                                ['escape' => false, 'title' => __d('control_panel', 'List systemic pages'), 'data-filter-tags' => __d('control_panel', 'list systemic pages')]
+                                ['escape' => false, 'title' => __d('smart_admin', 'List systemic pages'), 'data-filter-tags' => __d('smart_admin', 'list systemic pages')]
                             );
                             ?>
                         </li>

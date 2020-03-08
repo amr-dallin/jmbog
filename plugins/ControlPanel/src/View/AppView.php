@@ -31,5 +31,6 @@ class AppView extends View
             'pathPrefix' => DS . 'assets' . DS
         ]);
         $this->loadHelper('Meta.MetaForm');
+        $this->loadHelper('Published.Published');
     }
 }

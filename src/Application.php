@@ -42,6 +42,8 @@ class Application extends BaseApplication
 
         $this->addPlugin('Meta');
 
+        $this->addPlugin('Published');
+
         // Call parent to load bootstrap from files.
         parent::bootstrap();
 
