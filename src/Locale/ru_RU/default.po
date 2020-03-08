@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jannat Makon Bog\n"
-"POT-Creation-Date: 2020-03-06 21:34+0500\n"
-"PO-Revision-Date: 2020-03-06 21:37+0500\n"
+"POT-Creation-Date: 2020-03-08 12:56+0500\n"
+"PO-Revision-Date: 2020-03-08 12:57+0500\n"
 "Last-Translator: Marat Dallin <amr.dallin@gmail.com>\n"
 "Language-Team: Marat Dalin <mail@dallin.uz>\n"
 "Language: ru_RU\n"
@@ -35,26 +35,6 @@ msgstr "Последние"
 #: config/paginator-templates.php:16
 msgid "Page"
 msgstr "Страница"
-
-#: plugins/ControlPanel/src/View/Helper/FilesHelper.php:23
-msgid "Tb"
-msgstr ""
-
-#: plugins/ControlPanel/src/View/Helper/FilesHelper.php:24
-msgid "Gb"
-msgstr ""
-
-#: plugins/ControlPanel/src/View/Helper/FilesHelper.php:25
-msgid "Mb"
-msgstr ""
-
-#: plugins/ControlPanel/src/View/Helper/FilesHelper.php:26
-msgid "Kb"
-msgstr ""
-
-#: plugins/ControlPanel/src/View/Helper/FilesHelper.php:27
-msgid "b"
-msgstr ""
 
 #: src/Controller/SystemicPagesController.php:36
 #: src/Controller/SystemicPagesController.php:54
@@ -158,15 +138,23 @@ msgstr "Подробнее..."
 msgid "Completed activities"
 msgstr "Завершившиеся события"
 
-#: src/Template/Events/view.ctp:38 src/Template/Events/view.ctp:61
+#: src/Template/Events/view.ctp:38
 msgid "Event Results"
 msgstr "Результаты"
 
-#: src/Template/Events/view.ctp:76
+#: src/Template/Events/view.ctp:61
+msgid "Event results"
+msgstr "Результаты мероприятия"
+
+#: src/Template/Events/view.ctp:62
+msgid "List of issues discussed and decisions taken"
+msgstr "Список обсужденных вопросов и принятые по ним решения"
+
+#: src/Template/Events/view.ctp:77
 msgid "Attended the event"
 msgstr "Присутствовали на мероприятие"
 
-#: src/Template/Events/view.ctp:77
+#: src/Template/Events/view.ctp:78
 msgid "The event was attended by the owners of {0} land"
 msgstr "В мероприятие приняли участие собственники {0} земельных участков"
 

@@ -67,7 +67,7 @@ class EventsController extends AppController
             if ($this->Events->save($event)) {
                 $this->Flash->success(__d('control_panel', 'The event has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['action' => 'edit', $id]);
             }
             $this->Flash->error(__d('control_panel', 'The event could not be saved. Please, try again.'));
         }

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2020-03-06 21:38+0500\n"
+"POT-Creation-Date: 2020-03-08 12:55+0500\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -141,15 +141,22 @@ msgid "Completed activities"
 msgstr ""
 
 #: src/Template/Events/view.ctp:38
-#: src/Template/Events/view.ctp:61
 msgid "Event Results"
 msgstr ""
 
-#: src/Template/Events/view.ctp:76
-msgid "Attended the event"
+#: src/Template/Events/view.ctp:61
+msgid "Event results"
+msgstr ""
+
+#: src/Template/Events/view.ctp:62
+msgid "List of issues discussed and decisions taken"
 msgstr ""
 
 #: src/Template/Events/view.ctp:77
+msgid "Attended the event"
+msgstr ""
+
+#: src/Template/Events/view.ctp:78
 msgid "The event was attended by the owners of {0} land"
 msgstr ""
 

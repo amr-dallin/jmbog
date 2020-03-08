@@ -42,7 +42,7 @@ $this->end();
                 </div>
             </div>
             <div class="col-lg-6 col-md-4 col-12">
-            <div class="map-container">
+            <div class="map-container d-none d-lg-block">
                 <iframe src="https://yandex.uz/map-widget/v1/-/CKennM2E"></iframe>
             </div>
         </div>
@@ -58,7 +58,8 @@ $this->end();
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8">
-                <h2><?= __('Event Results') ?></h2>
+                <h2 class="mb-0"><?= __('Event results') ?></h2>
+                <p class="lead"><?= __('List of issues discussed and decisions taken') ?></p>
             </div>
         </div>
         <!--end of row-->
@@ -69,12 +70,12 @@ $this->end();
 <?php endif; ?>
 
 <?php if (!empty($event->plots)): ?>
-<section class="text-center space--xs">
+<section class="text-center space--xxs">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8">
                 <h2 class="mb-2"><?= __('Attended the event') ?></h2>
-                <div class="lead"><?= __('The event was attended by the owners of {0} land', count($event->plots)) ?></div>
+                <p class="lead"><?= __('The event was attended by the owners of {0} land', count($event->plots)) ?></p>
             </div>
         </div>
         <!--end of row-->

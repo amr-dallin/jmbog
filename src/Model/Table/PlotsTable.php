@@ -96,4 +96,15 @@ class PlotsTable extends Table
 
         return $rules;
     }
+
+    public function beforeFind($event, $query, $options, $primary)
+    {
+        $order = $query->clause('order');
+        if ($order === null || !count($order)) {
+            $query->order([
+                $this->aliasField('number') => 'ASC'
+            ]);
+        }
+    }
+
 }

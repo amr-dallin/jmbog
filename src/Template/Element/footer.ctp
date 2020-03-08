@@ -1,4 +1,4 @@
-<footer class="text-center space--sm footer-5  ">
+<footer class="footer-7 text-center bg--secondary">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
